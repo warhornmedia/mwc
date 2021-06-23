@@ -64,12 +64,12 @@ jobs:
 #          rmarkdown::find_pandoc()
 #        shell: Rscript {0}
 
-      - name: Clone template files
-        run: git clone https://github.com/warhornmedia/classics-template-files.git
+#      - name: Clone template files
+#        run: git clone https://github.com/warhornmedia/classics-template-files.git
 
       - name: Run Build Script
         run: |
-          mv classics-template-files/scripts/*.sh .
+          mv files/scripts/*.sh .
           chmod +x ./_buildGHA.sh
           ./_buildGHA.sh
 
