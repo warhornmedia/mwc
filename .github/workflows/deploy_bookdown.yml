@@ -25,7 +25,10 @@ jobs:
       #    TINYTEX_INSTALLER: TinyTeX
 
       - name: Install rmarkdown & bookdown
-        run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
+        run: |
+          Rscript -e 'install.packages(c("remotes"))'
+          Rscript -e 'install.packages(c("rmarkdown"))'
+          Rscript -e 'remotes::install_github("rstudio/bookdown")'
 
 #      - name: Query dependencies
 #        run: |
