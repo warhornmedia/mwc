@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: calluna-sans, sans-serif;
+	font-family: garamond-premier-pro, serif;
 	letter-spacing: .0125em;
 }
 
@@ -52,7 +52,7 @@ NIGHT THEME
 /*--- BODY FONTS ---*/
 
 .book.font-family-0 {
-	font-family: calluna, serif;
+	font-family: garamond-premier-pro, serif;
 	font-variant-ligatures: common-ligatures;
   	-moz-font-feature-settings: "liga", "clig";
   	-webkit-font-feature-settings: "liga", "clig";
@@ -60,7 +60,7 @@ NIGHT THEME
 }
 
 .book.font-family-1 {
-	font-family: calluna-sans, sans-serif;
+	font-family: acumin-pro, sans-serif;
 	font-variant-ligatures: common-ligatures;
   	-moz-font-feature-settings: "liga", "clig";
   	-webkit-font-feature-settings: "liga", "clig";
@@ -119,16 +119,6 @@ h1 + p::first-line, h2 + p::first-line {
 	font-variant:small-caps;
 }
 
-/* GREEK */
-
-.book.font-family-0 span:lang(el) {
-	font-family: minion-3, serif;
-}
-
-.book.font-family-1 span:lang(el) {
-	font-family: minion-3, sans-serif;
-}
-
 /* HEADING STYLES */
 
 /*FRONT MATTER HEADINGS*/
@@ -177,7 +167,7 @@ section#section-.normal {
 }
 
 #header h1.title, #header p.author, #header p.date, #header h2.subtitle { /* white/generic header text specs */
-    font-family: calluna, serif;
+    font-family: garamond-premier-pro, serif;
     color: #fff;
     margin: auto;
     max-width: 670px;
@@ -289,7 +279,7 @@ a.anchor-section::before {
     position: absolute;
     visibility: hidden;
     width: 110px;
-    font-family: calluna-sans, sans-serif;
+    font-family: acumin-pro, sans-serif;
     letter-spacing: .0125em;
     font-size: 14px;
     line-height: 28px;
@@ -336,7 +326,7 @@ h1, h2 {
 }
 
 h1 {
-	font-family: calluna, serif;
+	font-family: garamond-premier-pro, serif;
 	border-bottom: .1em solid #1aa9ab;
 	line-height: 1;
 	padding-bottom: .5em;
@@ -480,7 +470,7 @@ h3 .header-section-number {
 
 /* HEADER & TOC */
 .book .book-header h1 {
-	font-family: calluna, serif;
+	font-family: garamond-premier-pro, serif;
 	font-style: normal;
 	border: none;
 	padding-bottom: 0;
@@ -490,7 +480,7 @@ h3 .header-section-number {
 }
 
 .book .book-header, .book .book-summary {
-	font-family: calluna-sans, sans-serif;
+	font-family: acumin-pro, sans-serif;
 }
 
 .book .book-summary {
