@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: garamond-premier-pro, serif;
+	font-family: garamond-premier-pro-caption, serif;
 	letter-spacing: .0125em;
 }
 
@@ -52,7 +52,7 @@ NIGHT THEME
 /*--- BODY FONTS ---*/
 
 .book.font-family-0 {
-	font-family: garamond-premier-pro, serif;
+	font-family: garamond-premier-pro-caption, serif;
 	font-variant-ligatures: common-ligatures;
   	-moz-font-feature-settings: "liga", "clig";
   	-webkit-font-feature-settings: "liga", "clig";
@@ -167,7 +167,7 @@ section#section-.normal {
 }
 
 #header h1.title, #header p.author, #header p.date, #header h2.subtitle { /* white/generic header text specs */
-    font-family: garamond-premier-pro, serif;
+    font-family: garamond-premier-pro-caption, serif;
     color: #fff;
     margin: auto;
     max-width: 670px;
@@ -470,7 +470,7 @@ h3 .header-section-number {
 
 /* HEADER & TOC */
 .book .book-header h1 {
-	font-family: garamond-premier-pro, serif;
+	font-family: garamond-premier-pro-caption, serif;
 	font-style: normal;
 	border: none;
 	padding-bottom: 0;
