@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: garamond-premier-pro-caption, serif;
-	letter-spacing: .0125em;
+/*	letter-spacing: .0125em;*/
 }
 
 /* Reduce text column width */
@@ -22,12 +22,10 @@ body {
 
 GLOBAL
 #1aa9ab - Warhorn Turquoise
-
-WHITE THEME
-#333 - White Theme Text
-#fff - White Theme Background
-#364149 - White Theme Menu Text
-#e7e7e7 - White Theme Footnote Rule
+#0f7f8d - Cover Teal
+#245261 - Cover Deep Teal
+#83485c - Cover Maroon
+#8a7b5e - Cover Brown
 
 SEPIA THEME
 #704214 - Sepia Text
@@ -67,54 +65,6 @@ NIGHT THEME
   	font-feature-settings: "liga", "clig";
 }
 
-.poetry ul {
-    list-style-type: none;
-    font-style: italic;
-    margin-right: 2em;
-    margin-left: 2em;
-}
-
-.poetry li p {
-    margin-bottom: 0 !important;
-}
-
-.poetry > ul > li {
-    margin-left: 3em;
-    text-indent: -3em;
-}
-
-.poetry > ul > li > ul > li {
-    margin-left: -1em;
-}
-
-/* opening line style */
-h1 + p::first-line, h2 + p::first-line {
-	/*all small caps workaround*/
-	text-transform: lowercase;
-	font-variant: small-caps;
-	letter-spacing:.05em;
-	/* actual opentype all small caps code (does not work on ::first-line because of lack of support; overflow problem)
-	font-variant-caps: all-small-caps;
-	-moz-font-feature-settings: "smcp";
-	-webkit-font-feature-settings: "smcp";
-	font-feature-settings: "smcp";*/
-}
-
-/* don't do special opening line in front-matter paragraphs */
-#header ~ div h1 + p::first-line {
-    font-variant: normal;
-    text-transform: none;
-    letter-spacing: inherit;
-}
-
-/* avoid initial oldstyle numeral */
-.section p + p::first-letter {
-        font-variant-numeric: lining-nums;
-        -moz-font-feature-settings: "lnum";
-        -webkit-font-feature-settings: "lnum";
-        font-feature-settings: "lnum";
-}
-
 .smallcaps {
 	font-variant:small-caps;
 }
@@ -133,7 +83,7 @@ section#section-.normal {
     left: calc(-50vw + 50%);
     top: -25px;
     padding-bottom: 25px;
-    background-image: url("../images/title-background-white.png");
+    background-image: url("../images/triangles.png");
     background-color: #1aa9ab;
     background-repeat: no-repeat;
     background-position: center center;
@@ -151,7 +101,6 @@ section#section-.normal {
 }
 
 .color-theme-1 #header { /* sepia title header */
-    background-image: url("../images/title-background-sepia.png");
     background-color: #877f6a;
     -moz-box-shadow: inset 0 0 10px 10px #877f6a;
     -webkit-box-shadow: inset 0 0 10px 10px #877f6a;
@@ -159,7 +108,6 @@ section#section-.normal {
 }
 
 .color-theme-2 #header { /* night title header */
-    background-image: url("../images/title-background-night.png");
     background-color: #c1c6d7;
     -moz-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
     -webkit-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
@@ -167,7 +115,7 @@ section#section-.normal {
 }
 
 #header h1.title, #header p.author, #header p.date, #header h2.subtitle { /* white/generic header text specs */
-    font-family: garamond-premier-pro-caption, serif;
+    font-family: garamond-premier-pro, serif;
     color: #fff;
     margin: auto;
     max-width: 670px;
@@ -175,11 +123,9 @@ section#section-.normal {
 }
 
 .color-theme-1 #header h1.title, .color-theme-1 #header p.author, .color-theme-1 #header p.date, .color-theme-1 #header h2.subtitle { /* sepia header text specs */
-    color: #f3eacb;
 }
 
 .color-theme-2 #header h1.title, .color-theme-2 #header p.author, .color-theme-2 #header p.date, .color-theme-2 #header h2.subtitle { /* night header text specs */
-    color: #2d3143;
 }
 
 #header h1.title { /* generic title text specs */
@@ -188,10 +134,6 @@ section#section-.normal {
     border: none;
     text-transform: none;
     font-size: 4rem;
-}
-
-#header h2.subtitle > em { /* remove generic italics from subtitle, but leave inline specified italics */
-    font-style: normal;
 }
 
 #header h2.subtitle {
@@ -225,15 +167,11 @@ section#section-.normal {
 }
 
 #header p.author { /* white/generic title rule */
-    border-top: .15em solid rgba(255, 255, 255, 25%);
-}
-
-.color-theme-1 #header p.author { /* sepia title rule */
-    border-top: .15em solid rgba(243, 234, 203, 10%);
+/*    border-top: .15em solid rgba(255, 255, 255, 25%);*/
 }
 
 .color-theme-2 #header p.author { /* night title rule */
-    border-top: .15em solid rgba(45, 49, 67, 30%);
+/*    border-top: .15em solid rgba(45, 49, 67, 30%);*/
 }
 
 #header p.date { /* hide date from title header */
