@@ -696,3 +696,8 @@ pre code {
 .nobreak {
     white-space: nowrap;
 }
+
+.Opening-Drop-Words {
+    font-variant: small-caps;
+    letter-spacing:.0125em;
+}
