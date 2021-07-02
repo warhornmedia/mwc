@@ -1,10 +1,11 @@
 html {
-	font-size: 70%;
+	font-size: 75%;
 }
 
 body {
 	font-family: garamond-premier-pro-caption, serif;
 /*	letter-spacing: .0125em;*/
+    font-variant-numeric:oldstlye-nums;
 }
 
 /* Reduce text column width */
@@ -65,10 +66,6 @@ NIGHT THEME
   	font-feature-settings: "liga", "clig";
 }
 
-.smallcaps {
-	font-variant:small-caps;
-}
-
 /* HEADING STYLES */
 
 /*FRONT MATTER HEADINGS*/
@@ -90,9 +87,9 @@ section#section-.normal {
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-    -moz-box-shadow: inset 0 0 10px 10px #1aa9ab;
-    -webkit-box-shadow: inset 0 0 10px 10px #1aa9ab;
-    box-shadow: inset 0 0 10px 10px #1aa9ab;
+/*    -moz-box-shadow: inset 0 0 10px 10px #1aa9ab;*/
+/*    -webkit-box-shadow: inset 0 0 10px 10px #1aa9ab;*/
+/*    box-shadow: inset 0 0 10px 10px #1aa9ab;*/
 }
 
 .with-summary #header {
@@ -102,16 +99,16 @@ section#section-.normal {
 
 .color-theme-1 #header { /* sepia title header */
     background-color: #877f6a;
-    -moz-box-shadow: inset 0 0 10px 10px #877f6a;
-    -webkit-box-shadow: inset 0 0 10px 10px #877f6a;
-    box-shadow: inset 0 0 10px 10px #877f6a;
+/*    -moz-box-shadow: inset 0 0 10px 10px #877f6a;*/
+/*    -webkit-box-shadow: inset 0 0 10px 10px #877f6a;*/
+/*    box-shadow: inset 0 0 10px 10px #877f6a;*/
 }
 
 .color-theme-2 #header { /* night title header */
     background-color: #c1c6d7;
-    -moz-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
-    -webkit-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
-    box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
+/*    -moz-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
+/*    -webkit-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
+/*    box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
 }
 
 #header h1.title, #header p.author, #header p.date, #header h2.subtitle { /* white/generic header text specs */
@@ -134,6 +131,7 @@ section#section-.normal {
     border: none;
     text-transform: none;
     font-size: 4rem;
+    text-align:center;
 }
 
 #header h2.subtitle {
@@ -146,6 +144,7 @@ section#section-.normal {
     padding-right: 1em;
     letter-spacing: inherit;
     margin-bottom: .5em;
+    text-align:center;
 }
 
 #header p.author em { /* remove italics from header content; replace with small caps */
@@ -159,10 +158,10 @@ section#section-.normal {
     font-style: normal;
     font-size: 2.4rem;
     letter-spacing: .05em;
-    text-align: right;
+    text-align: center;
     margin: auto;
     padding-left: 1.5em;
-    padding-right: .4em;
+    padding-right: 1.5em;
     padding-bottom: 1.1em;
 }
 
@@ -265,19 +264,10 @@ h1, h2 {
 
 h1 {
 	font-family: garamond-premier-pro, serif;
-	border-bottom: .1em solid #1aa9ab;
+	border-bottom: 2px solid #0f7f8d;
 	line-height: 1;
 	padding-bottom: .5em;
-	font-weight: 400;
-	/*all small caps*/
-	text-transform: lowercase;
-	font-variant: small-caps;
-	letter-spacing: .03em;
-	/*opentype asc*/
-	/*font-variant-caps: all-small-caps;
-	-moz-font-feature-settings: "smcp";
-	-webkit-font-feature-settings: "smcp";
-	font-feature-settings: "smcp";*/
+	font-weight: bold;
 }
 
 h1 .header-section-number {
@@ -347,64 +337,6 @@ h3 .header-section-number {
   font-style: normal;
   font-weight: 700;
 }
-
-/* SERMON HEADINGS */
-
-.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 {
-    font-family: inherit;
-    font-size: 1em;
-    line-height: inherit;
-    font-style: italic;
-    font-weight: 400;
-    border: none;
-    padding-bottom: inherit;
-    text-transform: none;
-    font-variant: normal;
-    letter-spacing: inherit;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 .header-section-number {
-    display: initial;
-    font-size: inherit;
-    font-style: normal;
-    font-weight: 700;
-    padding-right: .5em;
-}
-
-.editorial::before {
-    content: "[";
-    font-style: normal;
-}
-
-.editorial::after {
-    content: "]";
-    font-style: normal;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 + p::first-line, .book .book-body .page-wrapper .page-inner section.normal > div ~ div h2 + p::first-line {
-    text-transform: none;
-    font-variant: normal;
-    letter-spacing: inherit;
-}
-
-/* for subsubpoints if using h4; problem: does not correctly style first-letters as lining-nums 
-.book .book-body .page-wrapper .page-inner section.normal h4 {
-    font-size: 1em; /*set h4 to body text size
-    font-weight: 400; /*set h4 to body text weight
-    text-indent: -15px;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal h4::before {
-    content: "\25B8";
-    font-style: normal;
-    float: left;
-    display: inline-block;
-    width: 15px;
-    text-align: center;
-    position: relative;
-    left: -15px;
-}
-*/
 
 /* HEADER & TOC */
 .book .book-header h1 {
@@ -487,19 +419,10 @@ li.divider + li.chapter a:before {
     hyphenate-limit-zone: 8%;
 }*/
 
-/* SET PARAGRAPHS TO INDENTED AND NO SPACE BETWEEN
-
-p + p, h3 + p {
-  text-indent: 1.2em;
-}
-
 .book .book-body .page-wrapper .page-inner section.normal p {
 	margin-top: 0em;
 	margin-bottom: 0em;
 }
-
-/*------*/
-
 
 /*--- COLOR THEME CUSTOMIZATION ---*/
 
@@ -699,5 +622,1008 @@ pre code {
 
 .Opening-Drop-Words {
     font-variant: small-caps;
+    text-transform:lowercase;
     letter-spacing:.0125em;
+}
+
+/*------------EPUB CSS-----------------*/
+
+
+/*PRE*/
+
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+.Basic-Text-Frame {
+    font-size:1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align:left !important;
+}
+p {
+/*    font-size:18px;*/
+    font-size:1em;
+/*    line-height:24px;*/
+    text-indent:0;
+    text-align:left;
+/*    widows:2;*/
+    widows:1;
+    orphans:1;
+}
+a {
+    text-decoration:none;
+    color:#0f7f8d;
+}
+td, th, tr {
+	border-style:none;
+	border-width:0px;
+}
+table {
+	border-collapse:collapse;
+}
+ul {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+	list-style-type:square;
+    list-style-type: '▸';
+	margin-block-start:0;
+    margin-block-end:0;
+    margin-inline-start:0px;
+    margin-inline-end:0px;
+    padding-inline-start:0;
+    text-align:left;
+}
+ol {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+    text-align:left;
+}
+li {
+    text-align:left;
+}
+body {
+	-epub-hyphens:auto;
+	-webkit-hyphens:auto;
+}
+@page {
+	margin : 0px 0px 0px 0px;
+}
+
+
+/*BODY*/
+
+
+p.BODY-STYLES_Body, p.BODY-STYLES_Body-SA {
+/*	text-indent:24px;*/
+    text-indent:5%;
+}
+p.BODY-STYLES_Body-SA, p.BODY-STYLES_Body-NI-SA, p.BODY-STYLES_Chapter-Opening-SA, p.BODY-STYLES_Subhead-Opening-SA {
+/*	margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+p.BODY-STYLES_Body-NI {
+}
+p.BODY-STYLES_Chapter-Opening, p.BODY-STYLES_Chapter-Opening-SA, p.BODY-STYLES_Part-Opening, p.BODY-STYLES_Subhead-Opening, p.BODY-STYLES_Subhead-Opening-SA {
+    break-before:avoid;
+}
+span.Opening-Drop-Words {
+    font-variant:small-caps;
+    text-transform:lowercase;
+    letter-spacing:.05em;
+}
+/*
+.BODY-STYLES_Part-Opening:first-line {
+	text-transform:uppercase;
+	font-variant:normal;
+    letter-spacing:.05em;
+}
+*/
+p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last, p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS, p.BODY-STYLES_Block-Quote-w-in-Block-Quote {
+/*    font-size:17px;*/
+    font-size:95%;
+}
+p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last, p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS{
+/*    margin-right:24px;*/
+    margin-right:5%;
+}
+.BODY-STYLES_Block-Quote-w-in-Block-Quote {
+/*    margin-left:48px;*/
+    margin-left:10%;
+/*    margin-right:48px;*/
+    margin-right:10%;
+/*    margin-top:12px;*/
+    margin-top:.5em;
+/*    margin-bottom:12px;*/
+    margin-bottom:.5em;
+}
+p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last {
+/*    margin-left:24px;*/
+    margin-left:5%;
+}
+p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-Last {
+/*	margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last {
+/*	text-indent:24px;*/
+    text-indent:5%;
+}
+p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA {
+/*	text-indent:-48px;*/
+    text-indent:-10%;
+    -epub-hyphens:manual;
+    -webkit-hyphens:manual;
+}
+p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA {
+/*	margin-left:96px;*/
+    padding-left:20%;
+}
+p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation {
+/*	margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA {
+/*	margin-left:120px;*/
+    margin-left:25%;
+}
+p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS {
+    text-align:right;
+    break-before:avoid;
+}
+span.Body-List-Counter-Float {
+	display:inline-block;
+/*	text-indent:0;*/
+	min-width:36px;
+/*    min-width:7.5%;*/
+/*    padding-left:2px;*/
+/*    padding-left:.5%;*/
+/*    padding-right:2px;*/
+/*    padding-right:.5%;*/
+	text-align:right;
+    white-space:nowrap;
+}
+span.Body-List-Counter-Float:after {
+    content: "\00a0";
+}
+.BODY-STYLES_L-O-Bull-L1, .BODY-STYLES_L-O-Bull-L1-SA, .BODY-STYLES_L-O-Bull-L2, .BODY-STYLES_L-O-Bull-L2-SA, .BODY-STYLES_L-O-Num-L1, .BODY-STYLES_L-O-Num-L1-1st, .BODY-STYLES_L-O-Num-L1-SA, .BODY-STYLES_L-O-Num-L1-Subsubhead, .BODY-STYLES_L-O-Num-L1-Subsubhead-1st, .BODY-STYLES_L-O-Num-L2, .BODY-STYLES_L-O-Ltr-L1, .BODY-STYLES_L-O-Ltr-L1-SA, .BODY-STYLES_L-O-Ltr-L1-1st, .BODY-STYLES_L-O-Ltr-L1-1st-SA, .BODY-STYLES_L-O-Ltr-L1-Subsubhead, .BODY-STYLES_L-O-Ltr-L1-Subsubhead-1st, .BODY-STYLES_L-O-Ltr-L2, .BODY-STYLES_L-O-Ltr-L2-SA  {
+    list-style-position:outside;
+/*    font-size:18px;*/
+}
+.BODY-STYLES_L-O-Bull-L1, .BODY-STYLES_L-O-Bull-L1-SA, .BODY-STYLES_L-O-Bull-L2, .BODY-STYLES_L-O-Bull-L2-SA {
+    list-style-type:square;
+    list-style-type: '▸';
+}
+.BODY-STYLES_L-O-Num-L1, .BODY-STYLES_L-O-Num-L1-1st, .BODY-STYLES_L-O-Num-L1-SA, .BODY-STYLES_L-O-Num-L1-Subsubhead, .BODY-STYLES_L-O-Num-L1-Subsubhead-1st, .BODY-STYLES_L-O-Num-L2 {
+    list-style-type:decimal;
+}
+.BODY-STYLES_L-O-Ltr-L1, .BODY-STYLES_L-O-Ltr-L1-SA, .BODY-STYLES_L-O-Ltr-L1-1st, .BODY-STYLES_L-O-Ltr-L1-1st-SA, .BODY-STYLES_L-O-Ltr-L1-Subsubhead, .BODY-STYLES_L-O-Ltr-L1-Subsubhead-1st {
+    list-style-type:upper-alpha;
+}
+.BODY-STYLES_L-O-Ltr-L2, .BODY-STYLES_L-O-Ltr-L2-SA {
+    list-style-type:lower-alpha;
+}
+.BODY-STYLES_L-O-Bull-L1, .BODY-STYLES_L-O-Bull-L1-SA, .BODY-STYLES_L-O-Num-L1, .BODY-STYLES_L-O-Num-L1-1st, .BODY-STYLES_L-O-Num-L1-SA, .BODY-STYLES_L-O-Num-L1-Subsubhead, .BODY-STYLES_L-O-Num-L1-Subsubhead-1st, .BODY-STYLES_L-O-Ltr-L1, .BODY-STYLES_L-O-Ltr-L1-SA, .BODY-STYLES_L-O-Ltr-L1-1st, .BODY-STYLES_L-O-Ltr-L1-1st-SA, p.BODY-STYLES_L-O-Ltr-L1-Subsubhead, .BODY-STYLES_L-O-Ltr-L1-Subsubhead-1st {
+/*    margin-left:36px;*/
+/*    text-indent:-36px;*/
+}
+.BODY-STYLES_L-O-Num-L1-Subsubhead, .BODY-STYLES_L-O-Num-L1-Subsubhead-1st, .BODY-STYLES_L-O-Ltr-L1-Subsubhead, .BODY-STYLES_L-O-Ltr-L1-Subsubhead-1st {
+/*    margin-top:36px;*/
+    margin-top:1.5em;
+/*    margin-bottom:12px;*/
+    margin-bottom:.5em;
+    break-after:avoid;
+}
+p.BODY-STYLES_L-O-Num-L1-Subsubhead, p.BODY-STYLES_L-O-Num-L1-Subsubhead-1st, p.BODY-STYLES_L-O-Ltr-L1-Subsubhead, p.BODY-STYLES_L-O-Ltr-L1-Subsubhead-1st {
+    margin-left:36px;
+    text-indent:-36px;
+}
+.BODY-STYLES_L-O-Bull-L2, .BODY-STYLES_L-O-Bull-L2-SA, .BODY-STYLES_L-O-Num-L2, .BODY-STYLES_L-O-Ltr-L2, .BODY-STYLES_L-O-Ltr-L2-SA {
+/*    margin-left:72px;*/
+/*    text-indent:-36px;*/
+/*    orphans:99;*/
+}
+.BODY-STYLES_Para-w-in-List-Item-L1, .BODY-STYLES_Para-w-in-List-Item-L1-SA {
+/*    margin-left:36px;*/
+/*    text-indent:24px;*/
+    list-style-type:none;
+    text-indent:5%;
+}
+.BODY-STYLES_L-O-Bull-L1-SA, .BODY-STYLES_L-O-Bull-L2-SA, .BODY-STYLES_L-O-Num-L1-SA, .BODY-STYLES_L-O-Ltr-L1-SA, .BODY-STYLES_L-O-Ltr-L2-SA, .BODY-STYLES_Para-w-in-List-Item-L1-SA {
+/*    margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+p.BODY-STYLES_Table-Container {
+/*    margin-top:24px;*/
+    margin-top:1em;
+/*    margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+p.BODY-STYLES_Basic-Table-Text {
+    -epub-hyphens:auto;
+	-webkit-hyphens:auto;
+}
+
+
+/*HEADERS*/
+
+
+.HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+    -epub-hyphens:manual;
+    -webkit-hyphens:manual;
+    orphans:99;
+    break-after:avoid;
+    text-align:left !important;
+}
+.HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .HEADS---SUBHEADS_Less-Than-Subhead, .TOC_TOC-Title {
+    font-variant:normal;
+    text-transform:uppercase;
+}
+.HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+    letter-spacing:.1em;
+    font-weight:normal;
+/*    font-size:24px;*/
+    font-size:133%;
+/*    line-height:24px;*/
+    line-height:1;
+/*    margin-bottom:96px;*/
+    margin-bottom:2em;
+}
+.HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+    text-align:left;
+}
+.HEADS---SUBHEADS_Chapter-Number {
+/*    font-size:24px;*/
+    font-size:133%;
+    font-weight:bold;
+/*    line-height:24px;*/
+    line-height:1;
+/*    margin-bottom:24px;*/
+    margin-bottom:1em;
+/*    margin-top:144px;*/
+    margin-top:10%;
+}
+/*.HEADS---SUBHEADS_Chapter-Number::before {
+    content:'▸'; /*  unicode would be '\25b8'   
+    display:inline-block;
+    width:30px;
+}*/
+.HEADS---SUBHEADS_Chapter-Title {
+    break-before:avoid;
+/*    margin-left:30px;*/
+}
+.HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
+/*    margin-top:192px;*/
+    margin-top:20%;
+}
+.TOC_TOC-Title, .F-B-MATTER_F-B-Matter-Section-Name-Hi {
+/*    margin-top:48px;*/
+    margin-top:10%;
+}
+#_idContainer003, #_idContainer014, #_idContainer021, #_idContainer029 {
+/*    display:table;*/
+    break-before:always;
+    width:100%;
+/*    height:144px;*/
+/*    margin-bottom:48px;*/
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    margin-bottom:1.5em;
+    margin-top:10%;
+    padding-bottom:1.5em;
+}
+.HEADS---SUBHEADS_Part-Number {
+/*    display:table-cell;*/
+/*    display:inline-block;*/
+/*    font-size:72px;*/
+    font-size:150%;
+/*    line-height:54px;*/
+    line-height:1;
+    font-weight:bold;
+    text-align:left;
+/*    vertical-align:bottom;*/
+/*    min-width:48px;*/
+/*    padding-right:12px;*/
+/*    margin-top:15%;*/
+    white-space:nowrap;
+/*    width:auto;*/
+}
+.HEADS---SUBHEADS_Part-Number:before {
+    content: 'Part ';
+}
+.HEADS---SUBHEADS_Part-Number:after {
+/*    content: '\00a0\00a0▸\00a0\00a0';*/
+/*    padding-left:.5em;*/
+/*    padding-right:.5em;*/
+}
+.HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title {
+/*	display:table-cell;*/
+/*    display:inline-block;*/
+/*	height:auto;*/
+/*	font-size:24px;*/
+    font-size:150%;
+	font-weight:bold;
+/*	line-height:24px;*/
+    line-height:1;
+	orphans:99;
+	break-after:avoid;
+	break-before:avoid;
+	text-align:left;
+/*    vertical-align:bottom;*/
+/*	width:100%;*/
+}
+.HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead {
+/*	font-size:20px;*/
+    font-size:110%;
+/*	line-height:24px;*/
+    line-height:1.2;
+}
+.HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead {
+    letter-spacing:.025em;
+/*    margin-bottom:24px;*/
+    margin-bottom:1em;
+/*    margin-top:48px;*/
+    margin-top:2em;
+}
+.HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
+    font-style:italic;
+    font-weight:normal;
+/*    margin-bottom:12px;*/
+    margin-bottom:.5em;
+}
+.HEADS---SUBHEADS_Subhead {
+	font-weight:bold;
+}
+.HEADS---SUBHEADS_Less-Than-Subhead {
+    font-variant:normal;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+.HEADS---SUBHEADS_Subsubhead {
+/*    margin-top:36px;*/
+    margin-top:1.5em;
+}
+.HEADS---SUBHEADS_Subsubhead-After-Subhead {
+    margin-top:0;
+}
+.HEADS---SUBHEADS_Subsubsubhead-Paragraph, .HEADS---SUBHEADS_Subsubsubhead-Paragraph-SA {
+/*    margin-top:24px;*/
+    margin-top:1em;
+}
+.HEADS---SUBHEADS_Subsubsubhead-Paragraph-SA {
+/*    margin-bottom:24px;*/
+    margin-bottom:1em;
+}
+
+
+/*FOOTNOTES*/
+
+
+.Next-Chapter {
+    text-align:right;
+/*    font-size:16px;*/
+    font-size:90%;
+/*    margin-top:12px;*/
+    margin-top:.5em;
+    font-style:italic;
+}
+._idFootnotes {
+    border-top-style:solid;
+    border-top-width:1px;
+/*    margin-top:16px;*/
+    margin-top:1.333em;
+/*    padding-top:8px;*/
+    padding-top:.666em;
+    font-size:90%;
+}
+._idFootnote {
+}
+._idFootnoteAnchor, span.Footnote-Number-Float {
+/*    display:inline-block;*/
+/*    text-indent:0;*/
+    text-align:right;
+/*    min-width:36px;*/
+    width:3em;
+/*    padding-right:4px;*/
+    white-space:nowrap;
+}
+._idFootnoteAnchor:after, span.Footnote-Number-Float:after {
+    content: '\00a0\00a0\00a0';
+}
+p.FOOTNOTES_Footnote, p.FOOTNOTES_Footnote-SA, p.FOOTNOTES_Footnote-Next, p.FOOTNOTES_Footnote-Next-SA, p.FOOTNOTES_Footnote-Next-NI, p.FOOTNOTES_Footnote-Outline-L1, p.FOOTNOTES_Footnote-Outline-L1-SA, p.FOOTNOTES_Footnote-Outline-L2 {
+/*    font-size:16px;*/
+/*    line-height:20px;*/
+}
+p.FOOTNOTES_Footnote, p.FOOTNOTES_Footnote-SA {
+/*    margin-left:40px;*/
+/*    padding-left:3em;*/
+/*    margin-left:0;*/
+}
+p.FOOTNOTES_Footnote-Next, p.FOOTNOTES_Footnote-Next-NI, p.FOOTNOTES_Footnote-Next-SA {
+/*    margin-left:3em;*/
+}
+p.FOOTNOTES_Footnote, p.FOOTNOTES_Footnote-SA {
+/*    margin-top:10px;*/
+    margin-top:.5em;
+/*    text-indent:-40px;*/
+/*    text-indent:-3em;*/
+}
+p.FOOTNOTES_Footnote-Next, p.FOOTNOTES_Footnote-Next-SA {
+/*    text-indent:20px;*/
+    text-indent:5%;
+}
+p.FOOTNOTES_Footnote-SA, p.FOOTNOTES_Footnote-Next-SA {
+/*    margin-bottom:10px;*/
+    margin-bottom:.5em;
+}
+p.FOOTNOTES_Footnote-Block-Quote-Single, p.FOOTNOTES_Footnote-Block-Quote-1st, p.FOOTNOTES_Footnote-Block-Quote-Next, p.FOOTNOTES_Footnote-Block-Quote-Last {
+/*	font-size:15px;*/
+    font-size:95%;
+/*	line-height:18px;*/
+/*    margin-left:60px;*/
+    margin-left:5%;
+/*	margin-right:20px;*/
+    margin-right:5%;
+}
+p.FOOTNOTES_Footnote-Block-Quote-Single, p.FOOTNOTES_Footnote-Block-Quote-Last {
+/*    margin-bottom:10px;*/
+    margin-bottom:.5em;
+}
+p.FOOTNOTES_Footnote-Block-Quote-Next, p.FOOTNOTES_Footnote-Block-Quote-Last {
+/*    text-indent:18px;*/
+    text-indent:5%;
+}
+._idFootnote ol.Footnote-Outline-L1 {
+/*    margin-left:3em;*/
+}
+span.Footnote-List-Counter-Float {
+	display:inline-block;
+	text-align:center;
+	text-indent:0;
+/*	min-width:26px;*/
+    min-width:7.5%;
+/*    padding-left:2px;*/
+    padding-left:.5%;
+/*    padding-right:2px;*/
+    padding-right:.5%;
+    white-space:nowrap;
+}
+.FOOTNOTES_Footnote-Outline-L1, .FOOTNOTES_Footnote-Outline-L1-SA, .FOOTNOTES_Footnote-Outline-L2 {
+    list-style-position:outside;
+/*    text-indent:-30px;*/
+}
+.FOOTNOTES_Footnote-Outline-L1, .FOOTNOTES_Footnote-Outline-L1-SA {
+    list-style-type:decimal;
+/*    margin-left:70px;*/
+}
+.FOOTNOTES_Footnote-Outline-L1-SA {
+/*    margin-bottom:10px;*/
+    margin-bottom:.5em;
+}
+.FOOTNOTES_Footnote-Outline-L2 {
+    list-style-type:lower-alpha;
+/*    margin-left:100px;*/
+}
+
+
+/*ENDNOTES*/
+
+
+.All-Endnotes {
+    font-size:90%;
+}
+.ENDNOTES_Endnote-Chapter-Num, .ENDNOTES_Endnote-Chapter-Title, .ENDNOTES_Endnote-No-Num-Title {
+    -epub-hyphens:none;
+    -webkit-hyphens:none;
+/*    font-size:18px;*/
+/*    line-height:20px;*/
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    orphans:99;
+    break-after:avoid;
+}
+.ENDNOTES_Endnote-Chapter-Num {
+    font-weight:bold;
+    font-size:111%;
+/*    margin-top:40px;*/
+    margin-top:2em;
+}
+.ENDNOTES_Endnote-Chapter-Title {
+    font-weight:normal;
+    font-size:111%;
+/*    margin-bottom:20px;*/
+    margin-bottom:1em;
+}
+.ENDNOTES_Endnote-No-Num-Title {
+/*    margin-bottom:20px;*/
+    margin-bottom:1em;
+/*    margin-top:40px;*/
+    margin-top:2em;
+    font-size:111%;
+}
+._idGenBNMarker-16, .Endnote-Number-Float {
+/*	display:inline-block;*/
+/*	text-align:center;*/
+/*	text-indent:0;*/
+/*	min-width:36px;*/
+/*    padding-right:4px;*/
+/*    white-space:nowrap;*/
+}
+._idGenBNMarker-16:after, .Endnote-Number-Float:after {
+    content: '\00a0';
+}
+p.ENDNOTES_Endnote-Initial_numbered, p.ENDNOTES_Endnote-Next, p.ENDNOTES_Endnote-Next-NI, p.ENDNOTES_Endnote-L-O-Master, p.ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3, p.ENDNOTES_Endnote-L-O-Num-L1, p.ENDNOTES_Endnote-L-O-Num-L1-SA, p.ENDNOTES_Endnote-L-O-Num-L1-1st, p.ENDNOTES_Endnote-L-O-Num-L2, p.ENDNOTES_Endnote-L-O-Ltr-L2 {
+/*    font-size:16px;*/
+/*    line-height:20px;*/
+}
+p.ENDNOTES_Endnote-Initial_numbered, p.ENDNOTES_Endnote-Next, p.ENDNOTES_Endnote-Next-NI {
+/*    margin-left:40px;*/
+}
+p.ENDNOTES_Endnote-Initial_numbered {
+	list-style-position:outside;
+	list-style-type:decimal;
+/*	text-indent:-40px;*/
+    margin-top:1em;
+}
+p.ENDNOTES_Endnote-Next {
+    text-indent:5%;
+}
+p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-1st, p.ENDNOTES_Endnote-Block-Quote-Next, p.ENDNOTES_Endnote-Block-Quote-Last {
+    font-size:95%;
+/*    line-height:18px;*/
+/*    margin-left:60px;*/
+    margin-left:5%;
+/*    margin-right:20px;*/
+    margin-right:5%;
+}
+p.ENDNOTES_Endnote-Block-Quote-Single + ol, p.ENDNOTES_Endnote-Block-Quote-1st + ol, p.ENDNOTES_Endnote-Block-Quote-Next + ol, p.ENDNOTES_Endnote-Block-Quote-Last + ol {
+    margin-bottom:.5em;
+}
+p.ENDNOTES_Endnote-Block-Quote-Single + ol li, p.ENDNOTES_Endnote-Block-Quote-1st + ol li, p.ENDNOTES_Endnote-Block-Quote-Next + ol li, p.ENDNOTES_Endnote-Block-Quote-Last + ol li {
+    font-size:100%;
+    margin-left:5%;
+}
+p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-1st, .ENDNOTES_Endnote-L-O-Num-L2 + .ENDNOTES_Endnote-Next {
+/*    margin-top:10px;*/
+    margin-top:.5em;
+}
+p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-Last {
+/*    margin-bottom:10px;*/
+    margin-bottom:.5em;
+}
+p.ENDNOTES_Endnote-Block-Quote-Next, p.ENDNOTES_Endnote-Block-Quote-Last {
+/*    text-indent:18px;*/
+    text-indent:5%;
+}
+span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float {
+	display:inline-block;
+	text-indent:0;
+	text-align:center;
+	min-width:26px;
+    padding-left:2px;
+    padding-right:2px;
+    white-space:nowrap;
+}
+.ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3, .ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st, .ENDNOTES_Endnote-L-O-Num-L2, .ENDNOTES_Endnote-L-O-Ltr-L2 {
+    list-style-position:outside;
+/*    text-indent:-30px;*/
+}
+.ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Master-SA {
+/*    margin-left:80px;*/
+    margin-left:5%;
+    padding-left:5%;
+    text-indent:-5%;
+}
+.ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Num-L1-1st {
+/*    margin-top:10px;*/
+    margin-top:.5em;
+}
+.ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Num-L1-SA {
+/*    margin-bottom:10px;*/
+    margin-bottom:.5em;
+}
+.ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3 {
+    list-style-type:square;
+    list-style-type: '▸';
+}
+.ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st, .ENDNOTES_Endnote-L-O-Num-L2 {
+    list-style-type:decimal;
+}
+.ENDNOTES_Endnote-L-O-Ltr-L2 {
+    list-style-type:upper-alpha;
+}
+.ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st {
+/*    margin-left:70px;*/
+}
+.ENDNOTES_Endnote-L-O-Num-L2, .ENDNOTES_Endnote-L-O-Ltr-L2 {
+/*    margin-left:100px;*/
+}
+.ENDNOTES_Endnote-L-O-Bull-L3 {
+/*    margin-left:130px;*/
+}
+
+
+/*TOC*/
+
+
+.TOC-Part-Title-Container {
+/*    display:table;*/
+    width:100%;
+/*    margin-top:24px;*/
+    margin-top:1em;
+/*    min-height:56px;*/
+}
+.TOC-Chap-Title-Container {
+/*    display:table;*/
+/*    margin-left:20%;*/
+/*    width:80%;*/
+    margin-top:1em;
+}
+.TOC_Huge-TOC-Part-Number {
+    -epub-hyphens:none;
+	-webkit-hyphens:none;
+/*    display:table-cell;*/
+/*    display:inline-block;*/
+/*    font-size:72px;*/
+    font-size:133%;
+/*    line-height:56px;*/
+    line-height:1;
+    font-weight:bold;
+/*    text-align:left;*/
+/*    vertical-align:bottom;*/
+/*    width:100px;*/
+/*    width:20%;*/
+/*    padding-right:18px;*/
+    white-space:nowrap;
+    break-after:avoid;
+}
+.TOC_Huge-TOC-Part-Number:before {
+/*    content: 'Part ';*/
+/*    padding-left:.5em;*/
+/*    padding-right:.5em;*/
+/*    white-space:nowrap;*/
+}
+.TOC-Part-Title {
+    -epub-hyphens:manual;
+	-webkit-hyphens:manual;
+/*    font-size:24px;*/
+    font-size:133%;
+/*    line-height:24px;*/
+    line-height:1;
+    font-weight:bold;
+    orphans:99;
+    break-before:avoid;
+    break-after:avoid;
+/*    display:table-cell;*/
+/*    vertical-align:bottom;*/
+/*    width:auto;*/
+/*    text-align:left !important;*/
+/*    margin-left:20%;*/
+/*    text-indent:-20%;*/
+    text-align:left !important;
+}
+.TOC-Chapter-Num {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+    font-size:100%;
+    line-height:1.5;
+    display:inline-block;
+/*    display:table-cell;*/
+	text-align:right;
+/*	text-indent:0;*/
+/*	min-width:72px;*/
+    min-width:36px;
+/*    margin-top:1em;*/
+/*    white-space:nowrap;*/
+}
+.TOC-Chapter-Num:after {
+/*    content: '\00a0\00a0▸\00a0\00a0';*/
+/*    padding-left:.5em;*/
+/*    padding-right:.5em;*/
+/*    white-space:nowrap;*/
+}
+.TOC_TOC-Chapter, .TOC_TOC-Chapter-Scrunch, .TOC_TOC-No-Num, .TOC_TOC-No-Num-Scrunch, .TOC_TOC-F-B-Matter {
+	-epub-hyphens:manual;
+	-webkit-hyphens:manual;
+/*	font-size:18px;*/
+    font-size:100%;
+/*	line-height:24px;*/
+    line-height:1.5;
+	font-weight:bold;
+/*	margin-right:0;*/
+/*	margin-top:24px;*/
+    margin-top:1em;
+    margin-left:36px;
+/*    margin-top:1em;*/
+	orphans:99;
+	break-after:avoid;
+    text-align:left !important;
+    text-indent:-36px;
+}
+.TOC_TOC-Chapter, .TOC_TOC-Chapter-Scrunch {
+/*    list-style-position:outside;*/
+/*    list-style-type:decimal;*/
+/*    display:table-cell;*/
+/*    width:auto;*/
+/*    margin-left:120px;*/
+/*    text-indent:-72px;*/
+}
+.TOC_TOC-No-Num, .TOC_TOC-No-Num-Scrunch, .TOC_TOC-F-B-Matter {
+/*    margin-left:72px;*/
+/*    margin-left:20%;*/
+    margin-top:1em;
+    list-style-type:none;
+}
+.TOC_TOC-Subsection, .TOC_TOC-Subsection-Scrunch {
+    -epub-hyphens:manual;
+    -webkit-hyphens:manual;
+/*    font-size:16px;*/
+    font-size:100%;
+    font-weight:normal;
+/*    line-height:24px;*/
+    line-height:1.5;
+/*    margin-left:144px;*/
+/*    margin-left:36%;*/
+    orphans:99;
+    break-before:avoid;
+/*    text-indent:-24px;*/
+    text-align:left;
+/*    padding-left:5%;*/
+    margin-left:60px;
+/*    text-indent:-5%;*/
+    text-indent:-24px;
+}
+
+/*FRONT/BACK MATTER*/
+
+
+#Man-and-Woman-in-Christ_Guide-to-Electronic-Versions a, #Man-and-Woman-in-Christ_ebook-export-38 a {
+    font-weight:bold;
+}
+.Buy-Buttons {
+    text-align:center;
+    margin-top:1em;
+    break-before:avoid;
+}
+.Buy-Buttons a {
+    color:white;
+}
+.Buy-Buttons a:hover {
+    text-decoration:underline;
+}
+.Buy-Button {
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    letter-spacing:.02em;
+    font-family:sans-serif;
+    background-color:#0f7f8d;
+    display:inline-block;
+    padding:1em;
+    margin-bottom:1em;
+    margin-left:.5em;
+    margin-right:.5em;
+    border-radius:.5em;
+    orphans:99;
+    break-before:avoid;
+    break-after:avoid;
+}
+p.F-B-MATTER_Bibliography-Entry {
+/*	margin-left:24px;*/
+    margin-left:5%;
+	break-after:avoid;
+/*	text-indent:-24px;*/
+    text-indent:-5%;
+}
+p.F-B-MATTER_Bibliography-Annotation {
+/*	margin-left:24px;*/
+    margin-left:5%;
+}
+p.Index-Bible-Book, p.Index-Level-1, p.Index-Level-2, p.Index-Note, p.Leading-Entry-Leading {
+/*    font-size:16px;*/
+    font-size:90%;
+/*    line-height:20px;*/
+    orphans:99;
+}
+p.Index-Bible-Book, p.Index-Level-1 {
+/*	margin-left:36px;*/
+    margin-left:7.5%;
+/*	text-indent:-36px;*/
+    text-indent:-7.5%;
+}
+p.Index-Bible-Book {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+/*    margin-top:20px;*/
+    margin-top:1em;
+	break-after:avoid;
+}
+p.Index-Level-2 {
+/*	margin-left:36px;*/
+    margin-left:7.5%;
+/*	text-indent:-12px;*/
+    text-indent:-2.5%;
+}
+p.Index-Note {
+	font-style:italic;
+/*    margin-bottom:20px;*/
+    margin-bottom:1em;
+}
+p.Leading-Entry-Leading {
+/*	margin-top:20px;*/
+    margin-top:1em;
+}
+p.F-B-MATTER_Copyright-Info, p.F-B-MATTER_Copyright-Info-1st, p.F-B-MATTER_Copyright-Info-Indented, p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
+    -epub-hyphens:none;
+    -webkit-hyphens:none;
+/*    font-size:16px;*/
+    font-size:90%;
+/*    line-height:20px;*/
+}
+p.F-B-MATTER_Copyright-Info-Indented, p.F-B-MATTER_Copyright-Info-Indented-SA {
+    margin-bottom:0;
+/*    margin-left:40px;*/
+    margin-left:10%;
+/*    text-indent:-20px;*/
+    text-indent:-5%;
+}
+p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
+/*	margin-bottom:20px;*/
+    margin-bottom:1em;
+    break-after:avoid;
+}
+
+
+/*CHARACTER STYLES*/
+
+
+.Italic, .Italic-Caption, .Index-Cross-reference, .Italic-Optical-Kerning, .No-Break-Italic {
+    font-style:italic;
+}
+.No-Break, .No-Break-Italic {
+    white-space:nowrap;
+}
+.ALL-CAPS {
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:.025em;
+    font-variant-numeric:lining-nums;
+}
+.Endnote-Ref, span.Footnote-Ref {
+    font-style:normal;
+    font-weight:bold !important;
+    vertical-align:super;
+    font-size:67%;
+    line-height:1;
+}
+.Invisible {
+    color:none;
+}
+.MaWiC_Subhead-Drop-Words {
+    font-variant:small-caps;
+    letter-spacing:.025em;
+}
+.Medium {
+    font-style:normal;
+    font-weight:normal;
+}
+.Medium-OT-All-Small-Caps {
+    font-style:normal;
+    font-variant:small-caps;
+    font-weight:normal;
+    text-transform:lowercase;
+    letter-spacing:.01em;
+}
+.OT-All-Small-Caps {
+    font-variant:small-caps;
+    text-transform:lowercase;
+    letter-spacing:.01em;
+}
+.Regular {
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-transform:none;
+    font-variant:normal;
+}
+.Semibold {
+	font-style:normal;
+	font-weight:bold;
+    letter-spacing:.01em;
+}
+.Small-Caps, .smallcaps {
+	font-variant:small-caps;
+	text-transform:none;
+}
+.Superscript {
+	font-style:normal;
+	vertical-align:super;
+    font-size:67%;
+    line-height:1;
+}
+.Drop-Cap, ._idGenDropcap-1 { /*
+	font-style:normal;
+	font-weight:bold;
+	font-size:99px;
+	line-height:1;
+	float:left;
+	font-style:normal;
+	font-weight:bold;
+	margin-top:-18px;
+	margin-bottom:-9px;
+	margin-right:4px; */
+}
+.two-em-dash {
+    letter-spacing:-.3em;
+}
+#table001, #table002 {
+    border-style:solid;
+    border-width:.5px;
+    margin-bottom:24px;
+}
+#table001 td, #table002 td, #table001 th, #table002 th {
+    border-style:solid;
+    border-width:.5px;
+    padding:4px;
+    vertical-align:top;
+}
+#table001 .col1 {
+}
+#table001 .col2 {
+}
+#table001 .col3 {
+}
+.letter-indent {
+    margin-left:24px;
+}
+#table002 {
+    margin-top:1em;
+    font-size:80%;
+}
+#table002 .BODY-STYLES_Basic-Table-Text {
+/*    font-size:14px;*/
+/*    line-height:17px;*/
+}
+#table002 .col1 {
+    text-align:right;
+}
+#table002 .col2, #table002 .col3, #table002 .col4, #table002 .col5 {
+}
+#table002 th {
+    border-bottom-width:3px;
+    border-bottom-style:solid;
+    vertical-align:bottom;
+    font-weight:normal;
+}
+#table002 tr > :first-child > .BODY-STYLES_Basic-Table-Text {
+    text-align:right;
+    white-space:nowrap;
+}
+#_idContainer022 {
+    margin-top:1em;
+    margin-bottom:.5em;
+/*    margin-left:36px;*/
+    text-align:center;
+}
+#_idContainer022 img {
+    height:auto;
+    width:100%;
+    align:center;
+}
+#_idContainer000 {
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+#_idContainer000 img {
+    height:100%;
+    width:100%;
+    align:center;
 }
