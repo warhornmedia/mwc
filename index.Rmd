@@ -1,6 +1,7 @@
 --- 
 title: "Man and Woman in Christ"
-author: "Stephen B Clark"
+subtitle: "An Examination of the Roles of Men and Women in Light of Scripture and the Social Sciences"
+author: "Stephen B. Clark"
 date: "2021"
 description: "This empty book is a template for starting new Warhorn Classics book projects."
 params:

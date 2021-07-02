@@ -39,3 +39,12 @@
     });
 </script>
 -->
+
+<!--- No Ligatures on Th --->
+<script>
+    $(window).load(function() {
+        $("body").html(function(_, html) {
+            return  html.replace(/Th/g, '<span class="No-Ligatures">Th</span>')
+        });
+    });
+</script>

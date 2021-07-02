@@ -1,5 +1,5 @@
 book_filename: "Man-and-Woman-in-Christ"
-language:
-  ui:
-    chapter_name: "Chapter "
+#language:
+#  ui:
+#    chapter_name: "Chapter "
 delete_merged_file: true
