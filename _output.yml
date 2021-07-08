@@ -17,7 +17,7 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-    download: ["pdf", "epub"]
+    download: ["pdf", "epub", "mobi"]
   includes:
     in_header: files/html/in_header.html
     after_body: files/html/after_body.html
