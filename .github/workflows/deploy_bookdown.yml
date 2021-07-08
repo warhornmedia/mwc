@@ -103,4 +103,4 @@ jobs:
           TOKEN: ${{ secrets.GH_PAT }} # https://github.com/settings/tokens
           BRANCH: gh-pages # The branch the action should deploy to
           FOLDER: _book # The folder the action should deploy
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          CLEAN: false # Automatically remove deleted files from the deploy branch
