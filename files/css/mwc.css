@@ -296,6 +296,14 @@ li.divider + li.chapter a:before {
 
 .book .book-summary ul.summary li.chapter b {
 	font-style: normal;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+    text-overflow: inherit;
+    white-space: normal;
 }
 
 /*--- ALTERNATE BODY TEXT OPTIONS ---*/
@@ -782,12 +790,24 @@ h1 .header-section-number:before {
     font-variant-numeric: lining-nums tabular-nums;
 }
 
-.HEADS---SUBHEADS_Part-Number {
+h1 .HEADS---SUBHEADS_Part-Number {
     font-size:150%;
     line-height:1;
     font-weight:bold;
     text-align:left;
     white-space:nowrap;
+}
+
+.summary .HEADS---SUBHEADS_Part-Number:before {
+    content: 'Part ';
+}
+
+.summary .HEADS---SUBHEADS_Part-Number:after {
+    content: ' – ';
+}
+
+.book .book-summary ul.summary li:not(.chapter) {
+    font-weight: bold;
 }
 
 .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
@@ -1388,8 +1408,6 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 	font-size:99px;
 	line-height:1;
 	float:left;
-	font-style:normal;
-	font-weight:bold;
 	margin-top:-18px;
 	margin-bottom:-9px;
 	margin-right:4px; 
