@@ -2,6 +2,8 @@ bookdown::gitbook:
   css: files/css/mwc.css
   split_by: rmd
   config:
+    toc:
+      collapse: section
     search:
       engine: fuse
     fontsettings:
