@@ -525,13 +525,13 @@ The second reason is the one most in harmony with the exegesis of Gal 3:28 give
    });
 </script>
 
-<!-- No Ligatures on "Th" 
+<!-- No Ligatures on "Th" -->
 <script>
     window.onload = function() {
-        let str = document.getElementsByTagName("body").innerHTML;
-        document.getElementById("demo").innerHTML = str.replace(/Th/g, "<b>Th</b>");
+        let str = document.getElementById("section-").innerHTML;
+        document.getElementById("section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
+    }
 </script>
--->
             </section>
 
           </div>

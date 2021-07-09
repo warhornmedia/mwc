@@ -601,13 +601,13 @@ In the medieval world there was relatively little concern with positive, discret
    });
 </script>
 
-<!-- No Ligatures on "Th" 
+<!-- No Ligatures on "Th" -->
 <script>
     window.onload = function() {
-        let str = document.getElementsByTagName("body").innerHTML;
-        document.getElementById("demo").innerHTML = str.replace(/Th/g, "<b>Th</b>");
+        let str = document.getElementById("section-").innerHTML;
+        document.getElementById("section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
+    }
 </script>
--->
             </section>
 
           </div>
