@@ -22,8 +22,8 @@
 
 <!-- No Ligatures on "Th" -->
 <script>
-    window.onload = function() {
-        let str = document.getElementById("section-").innerHTML;
-        document.getElementById("section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
+    $(document).ready(function () {
+        $("#section-").innerHTML;
+        $("#section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
     }
 </script>

@@ -652,13 +652,13 @@ p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-S
     -ms-hyphens:manual;
 }
 p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA {
-    padding-left:3.125em;
+    padding-left:4.6875em;
 }
 p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation {
     margin-bottom:1.5625em !important;
 }
 p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA {
-    margin-left:6.25em;
+    padding-left:6.25em;
 }
 p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS {
     text-align:right;
@@ -906,7 +906,7 @@ p.FOOTNOTES_Footnote-Next, p.FOOTNOTES_Footnote-Next-NI, p.FOOTNOTES_Footnote-Ne
 }
 p.FOOTNOTES_Footnote, p.FOOTNOTES_Footnote-SA {
 /*    margin-top:10px;*/
-    margin-top:.5em;
+    margin-top:.5em !important;
 /*    text-indent:-40px;*/
 /*    text-indent:-3em;*/
 }
