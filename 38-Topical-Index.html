@@ -2103,7 +2103,7 @@ zakar, <a href="05-ch01-From-the-Beginning.html#_idIndexMarker023">12n†</a>
 <script>
     <script>
     $(window).load(function() {
-        $("#section-").html(function(_, html) {
+        $("body").html(function(_, html) {
             return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
         });
     });

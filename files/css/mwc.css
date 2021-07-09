@@ -1412,13 +1412,14 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 }
 .Drop-Cap, ._idGenDropcap-1 { 
 	font-style:normal;
+    font-family: garamond-premier-pro;
 	font-weight:bold;
-	font-size:99px;
-	line-height:1;
+	font-size:5.5em;
+	line-height:1.1;
 	float:left;
-	margin-top:-18px;
-	margin-bottom:-9px;
-	margin-right:4px; 
+	margin-top:-.09em;
+	margin-bottom:-.3em;
+	margin-right:.03em; 
 }
 .two-em-dash {
     letter-spacing:-.3em;

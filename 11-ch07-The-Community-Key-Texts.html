@@ -588,7 +588,7 @@ Moreover, if it were a gloss, the suggestion of Kittel, “Die ‘Macht’ auf d
 <script>
     <script>
     $(window).load(function() {
-        $("#section-").html(function(_, html) {
+        $("body").html(function(_, html) {
             return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
         });
     });

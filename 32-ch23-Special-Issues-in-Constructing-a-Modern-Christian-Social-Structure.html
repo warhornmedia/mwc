@@ -547,7 +547,7 @@ On the other hand, feminization is not a psychological disorder and need not inv
 <script>
     <script>
     $(window).load(function() {
-        $("#section-").html(function(_, html) {
+        $("body").html(function(_, html) {
             return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
         });
     });

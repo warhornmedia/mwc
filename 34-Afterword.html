@@ -189,7 +189,7 @@ Christians do not have to live like the nations around them. In a society that i
 <script>
     <script>
     $(window).load(function() {
-        $("#section-").html(function(_, html) {
+        $("body").html(function(_, html) {
             return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
         });
     });
