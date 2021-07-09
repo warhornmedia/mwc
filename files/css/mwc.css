@@ -299,6 +299,13 @@ li.divider + li.chapter a:before {
     display: inline-block;
     width: 20px;
     text-align: center;
+    position: relative;
+    left: 10px;
+}
+
+.book .book-summary ul.summary li.chapter a, .book .book-summary ul.summary li.chapter span {
+    text-indent: -24px;
+    padding-left: 48px;
 }
 
 .book .book-summary ul.summary li a, .book .book-summary ul.summary li span {

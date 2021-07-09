@@ -2094,14 +2094,13 @@ zakar, <a href="05-ch01-From-the-Beginning.html#_idIndexMarker023">12n†</a>
    });
 </script>
 
-<!-- No Ligatures on "Th" -->
+<!-- No Ligatures on "Th" 
 <script>
-    $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|<script>[^<]*<\/script>|(Th)/g, '$1')
-        });
-    });
+    window.onload = function() {
+        let str = document.getElementsByTagName("body").innerHTML;
+        document.getElementById("demo").innerHTML = str.replace(/Th/g, "<b>Th</b>");
 </script>
+-->
             </section>
 
           </div>

@@ -401,14 +401,13 @@ Not all modern social science is Feminist Social Science. Not all social scienti
    });
 </script>
 
-<!-- No Ligatures on "Th" -->
+<!-- No Ligatures on "Th" 
 <script>
-    $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|<script>[^<]*<\/script>|(Th)/g, '$1')
-        });
-    });
+    window.onload = function() {
+        let str = document.getElementsByTagName("body").innerHTML;
+        document.getElementById("demo").innerHTML = str.replace(/Th/g, "<b>Th</b>");
 </script>
+-->
             </section>
 
           </div>
