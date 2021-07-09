@@ -88,7 +88,12 @@
 <li class="chapter" data-level="" data-path="05-ch01-From-the-Beginning.html"><a href="05-ch01-From-the-Beginning.html#the-beginning-of-genesis"><i class="fa fa-check"></i>The Beginning of Genesis</a></li>
 <li class="chapter" data-level="" data-path="05-ch01-From-the-Beginning.html"><a href="05-ch01-From-the-Beginning.html#genesis-1-male-and-female"><i class="fa fa-check"></i>Genesis 1  ▹  Male and Female</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="06-ch02-Sin-and-the-New-Adam.html"><a href="06-ch02-Sin-and-the-New-Adam.html"><i class="fa fa-check"></i><b>2</b> Sin and the New Adam</a></li>
+<li class="chapter" data-level="2" data-path="06-ch02-Sin-and-the-New-Adam.html"><a href="06-ch02-Sin-and-the-New-Adam.html"><i class="fa fa-check"></i><b>2</b> Sin and the New Adam</a>
+<ul>
+<li class="chapter" data-level="" data-path="06-ch02-Sin-and-the-New-Adam.html"><a href="06-ch02-Sin-and-the-New-Adam.html#genesis-3-the-mans-rule"><i class="fa fa-check"></i>Genesis 3  ▹  The Man’s Rule</a></li>
+<li class="chapter" data-level="" data-path="06-ch02-Sin-and-the-New-Adam.html"><a href="06-ch02-Sin-and-the-New-Adam.html#the-new-mankind"><i class="fa fa-check"></i>The New Mankind</a></li>
+<li class="chapter" data-level="" data-path="06-ch02-Sin-and-the-New-Adam.html"><a href="06-ch02-Sin-and-the-New-Adam.html#community-and-subordination"><i class="fa fa-check"></i>Community and Subordination</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="07-ch03-The-Family-Husbands-and-Wives.html"><a href="07-ch03-The-Family-Husbands-and-Wives.html"><i class="fa fa-check"></i><b>3</b> The Family  ▹  Husbands and Wives</a></li>
 <li class="chapter" data-level="4" data-path="08-ch04-The-Family-Key-Texts.html"><a href="08-ch04-The-Family-Key-Texts.html"><i class="fa fa-check"></i><b>4</b> The Family  ▹  Key Texts</a></li>
 <li class="chapter" data-level="5" data-path="09-ch05-The-People-Service-and-Position.html"><a href="09-ch05-The-People-Service-and-Position.html"><i class="fa fa-check"></i><b>5</b> The People  ▹  Service and Position</a></li>
@@ -3098,10 +3103,13 @@ Ordination, Occupation, Legislation
 
 <!-- No Ligatures on "Th" -->
 <script>
-    $(document).ready(function () {
-        $("#section-").innerHTML;
-        $("#section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
-    }
+    <script>
+    $(window).load(function() {
+        $("#section-").html(function(_, html) {
+            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        });
+    });
+</script>
 </script>
             </section>
 
