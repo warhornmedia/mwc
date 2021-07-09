@@ -765,6 +765,7 @@ h1 .header-section-number, .HEADS---SUBHEADS_Chapter-Number {
 
 h1 .header-section-number:before {
     position: relative;
+    top: -4px;
     display: inline-block;
     width: 36px;
     text-align: right;
@@ -839,9 +840,9 @@ h1 .HEADS---SUBHEADS_Part-Number {
 	font-weight:bold;
 }
 .HEADS---SUBHEADS_Less-Than-Subhead {
-    font-variant:normal;
+    font-variant:small-caps;
     font-weight:normal;
-    text-transform:uppercase;
+    text-transform:lowercase;
 }
 .HEADS---SUBHEADS_Subsubhead {
     margin-top:1.75em;
