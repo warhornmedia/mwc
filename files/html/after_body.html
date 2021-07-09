@@ -20,12 +20,11 @@
    });
 </script>
 
-<!-- No Ligatures on "Th" 
+<!-- No Ligatures on "Th" -->
 <script>
     $(window).load(function() {
         $("body").html(function(_, html) {
-            return  html.replace(/Th/g, '<span class="No-Ligatures">Th</span>')
+            return  html.replace(/<[^>]*>|<script>[^<]*<\/script>|(Th)/g, '$1')
         });
     });
 </script>
--->

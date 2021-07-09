@@ -1,8 +1,8 @@
 # Man and Woman in Christ
 
-## Stephen B Clark
+## Stephen B. Clark
 
-## 1981
+## 1980, 2006, 2021
 
 
 
