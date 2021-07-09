@@ -588,11 +588,10 @@ Moreover, if it were a gloss, the suggestion of Kittel, “Die ‘Macht’ auf d
 <script>
     <script>
     $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        $(".section").html(function(_, html) {
+            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
         });
     });
-</script>
 </script>
             </section>
 

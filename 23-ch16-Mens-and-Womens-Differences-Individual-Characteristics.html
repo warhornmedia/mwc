@@ -791,11 +791,10 @@ It can be safely maintained that there is no reason to rule out the hypothesis t
 <script>
     <script>
     $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        $(".section").html(function(_, html) {
+            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
         });
     });
-</script>
 </script>
             </section>
 

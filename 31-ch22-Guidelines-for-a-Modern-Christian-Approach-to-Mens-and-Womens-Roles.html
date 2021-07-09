@@ -519,11 +519,10 @@ At the same time, Christians should be free to supplement the expressions and st
 <script>
     <script>
     $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        $(".section").html(function(_, html) {
+            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
         });
     });
-</script>
 </script>
             </section>
 

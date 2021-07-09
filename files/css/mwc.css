@@ -4,6 +4,7 @@ html {
 
 body {
 	font-family: garamond-premier-pro-caption, serif;
+    letter-spacing: 0;
 }
 
 /* Reduce text column width */
@@ -256,6 +257,11 @@ h1.hasAnchor a.anchor-section {
 	text-transform: lowercase;
 	font-variant: small-caps;
 	letter-spacing: .1em;
+}
+
+/*remove serif/sans option*/
+.dropdown-menu div:nth-child(3) {
+    display: none;
 }
 
 .book .book-header, .book .book-summary {
@@ -549,6 +555,7 @@ pre code {
     font-variant: small-caps;
     text-transform:lowercase;
     letter-spacing:.0125em;
+    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 /*------------EPUB CSS-----------------*/
@@ -724,7 +731,7 @@ p.BODY-STYLES_Basic-Table-Text {
 
 /*HEADERS*/
 
-div[number] > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+.section > h1:first-child, .level2 > h2:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     -epub-hyphens:manual;
     -webkit-hyphens:manual;
     orphans:99;
@@ -732,29 +739,29 @@ div[number] > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEAD
     text-align:left !important;
 }
 
-div[number] > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .HEADS---SUBHEADS_Less-Than-Subhead, .TOC_TOC-Title {
+.section > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .HEADS---SUBHEADS_Less-Than-Subhead, .TOC_TOC-Title {
     font-variant:small-caps;
     text-transform:lowercase;
     font-variant-numeric: oldstyle-nums proportional-nums;
     font-weight: normal !important;
 }
 
-div[number] > h1:first-child, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+.section > h1:first-child, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     letter-spacing:.1em !important;
     font-weight:normal !important;
-    font-size: 26px !important;
+    font-size: 1.5em !important;
     line-height: 1 !important;
-    margin-bottom: 100px !important;
+    margin-bottom: 70px !important;
 }
 
-div[number] > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+.section > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     text-align:left;
 }
 
 h1 .header-section-number, .HEADS---SUBHEADS_Chapter-Number {
     display: block !important;
     padding-right: 0em !important;
-    font-size: 40px !important;
+    font-size: 1.5em !important;
     line-height: 1 !important;
     margin-bottom: 25px !important;
     margin-top: 10% !important;
@@ -765,13 +772,13 @@ h1 .header-section-number, .HEADS---SUBHEADS_Chapter-Number {
 
 h1 .header-section-number:before {
     position: relative;
-    top: -4px;
+    top: -.2em;
     display: inline-block;
     width: 36px;
     text-align: right;
     content: '▶';
     padding-right: 10px;
-    font-size: 18px !important;
+    font-size: .45em !important;
 }
 
 .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
@@ -792,9 +799,13 @@ h1 .header-section-number:before {
 
 #the-scriptural-teaching > h1, #assessing-the-scriptural-teaching > h1, #the-scriptural-teaching-in-contemporary-society > h1, #a-christian-approach-for-today > h1 {
     font-family: garamond-premier-pro, serif;
-    font-weight:bold;
-    line-height:1;
-    padding-bottom:.5em;
+    font-size: 2em !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+    font-variant: normal !important;
+    font-weight:bold !important;
+    line-height:1 !important;
+    padding-bottom:.5em !important;
     orphans:99;
     font-variant-numeric: lining-nums tabular-nums;
 }
@@ -819,11 +830,11 @@ h1 .HEADS---SUBHEADS_Part-Number {
     font-weight: bold;
 }
 
-.HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
+.level2 > h2:first-child, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
     font-size:1.2em !important;
     line-height:1.25;
 }
-.HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead {
+.level2 > h2:first-child, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead {
     letter-spacing:.025em;
     margin-bottom:1.25em;
     margin-top:2.5em;
@@ -836,7 +847,7 @@ h1 .HEADS---SUBHEADS_Part-Number {
 .HEADS---SUBHEADS_Subsubhead-After-Subhead {
     margin-top: .5em !important;
 }
-.HEADS---SUBHEADS_Subhead {
+.level2 > h2:first-child, .HEADS---SUBHEADS_Subhead {
 	font-weight:bold;
 }
 .HEADS---SUBHEADS_Less-Than-Subhead {
@@ -1250,7 +1261,7 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
     break-before:avoid;
 }
 .Buy-Buttons a {
-    color:white;
+    color:white !important;
 }
 .Buy-Buttons a:hover {
     text-decoration:underline;
@@ -1264,7 +1275,7 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
     background-color:#0f7f8d;
     display:inline-block;
     padding:1em;
-    margin-bottom:1em;
+    margin-bottom:1em !important;
     margin-left:.5em;
     margin-right:.5em;
     border-radius:.5em;
@@ -1325,7 +1336,6 @@ p.F-B-MATTER_Copyright-Info, p.F-B-MATTER_Copyright-Info-1st, p.F-B-MATTER_Copyr
 /*    line-height:20px;*/
 }
 p.F-B-MATTER_Copyright-Info-Indented, p.F-B-MATTER_Copyright-Info-Indented-SA {
-    margin-bottom:0;
 /*    margin-left:40px;*/
     margin-left:10%;
 /*    text-indent:-20px;*/
@@ -1333,7 +1343,7 @@ p.F-B-MATTER_Copyright-Info-Indented, p.F-B-MATTER_Copyright-Info-Indented-SA {
 }
 p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 /*	margin-bottom:20px;*/
-    margin-bottom:1em;
+    margin-bottom:1em !important;
     break-after:avoid;
 }
 

@@ -229,11 +229,10 @@ This 2021 edition of <span class="Italic">Man and Woman in Christ</span> is avai
 <script>
     <script>
     $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        $(".section").html(function(_, html) {
+            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
         });
     });
-</script>
 </script>
             </section>
 

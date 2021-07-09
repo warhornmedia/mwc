@@ -822,11 +822,10 @@ The New Testament presents a simple pattern of roles of men and women in the fam
 <script>
     <script>
     $(window).load(function() {
-        $("body").html(function(_, html) {
-            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        $(".section").html(function(_, html) {
+            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
         });
     });
-</script>
 </script>
             </section>
 
