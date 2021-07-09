@@ -290,8 +290,9 @@ li.divider + li.chapter a:before {
 	font-style: normal;
 }
 
-.book .book-summary ul.summary li.chapter ul li.chapter ul li.chapter {
+.book .book-summary ul.summary li.chapter ul li.chapter {
 	font-style: italic;
+    padding-left: 4px;
 }
 
 .book .book-summary ul.summary li.chapter b {
