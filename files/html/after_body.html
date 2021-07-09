@@ -22,8 +22,11 @@
 
 <!-- No Ligatures on "Th" -->
 <script>
-    $(document).ready(function () {
-        $("#section-").innerHTML;
-        $("#section-").innerHTML = str.replace(/<[^>]*>|(Th)/g, "<span class="No-Ligatures">$1</span>");
-    }
+    <script>
+    $(window).load(function() {
+        $("#section-").html(function(_, html) {
+            return  html.replace(/<[^>]*>|(Th)/g, '<span class="No-Ligatures">$1</span>')
+        });
+    });
+</script>
 </script>
