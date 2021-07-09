@@ -77,8 +77,9 @@
 <li><a href="./">Man and Woman in Christ — Clark</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Guide to Electronic Versions</a></li>
-<li class="chapter" data-level="" data-path="02-TOC.html"><a href="02-TOC.html"><i class="fa fa-check"></i>Contents</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Publication Info</a></li>
+<li class="chapter" data-level="" data-path="01-TOC.html"><a href="01-TOC.html"><i class="fa fa-check"></i>Contents</a></li>
+<li class="chapter" data-level="" data-path="02-Guide-to-Electronic-Versions.html"><a href="02-Guide-to-Electronic-Versions.html"><i class="fa fa-check"></i>Guide to Electronic Versions</a></li>
 <li class="chapter" data-level="" data-path="03-Preface.html"><a href="03-Preface.html"><i class="fa fa-check"></i>Preface</a></li>
 <li><a href="04-Part-1-The-Scriptural-Teaching.html#the-scriptural-teaching"><span class="HEADS---SUBHEADS_Part-Number">1</span> The Scriptural Teaching</a></li>
 <li class="chapter" data-level="1" data-path="05-ch01-From-the-Beginning.html"><a href="05-ch01-From-the-Beginning.html"><i class="fa fa-check"></i><b>1</b> From the Beginning</a>
@@ -120,7 +121,6 @@
 <li class="chapter" data-level="" data-path="36-Notes.html"><a href="36-Notes.html"><i class="fa fa-check"></i>Notes</a></li>
 <li class="chapter" data-level="" data-path="37-Scripture-Index.html"><a href="37-Scripture-Index.html"><i class="fa fa-check"></i>Scripture Index</a></li>
 <li class="chapter" data-level="" data-path="38-Topical-Index.html"><a href="38-Topical-Index.html"><i class="fa fa-check"></i>Topical Index</a></li>
-<li class="chapter" data-level="" data-path="39-Publication-Info.html"><a href="39-Publication-Info.html"><i class="fa fa-check"></i>Publication Info</a></li>
 </ul>
 
       </nav>
@@ -595,15 +595,14 @@ Fourthly and finally, Christians now face a twofold challenge: (1) they must fi
    });
 </script>
 
-<!-- No Ligatures on "Th" 
+<!-- No Ligatures on "Th" -->
 <script>
     $(window).load(function() {
         $("body").html(function(_, html) {
-            return  html.replace(/Th/g, '<span class="No-Ligatures">Th</span>')
+            return  html.replace(/<[^>]*>|<script>[^<]*<\/script>|(Th)/g, '$1')
         });
     });
 </script>
--->
             </section>
 
           </div>
