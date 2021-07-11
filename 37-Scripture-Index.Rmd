@@ -302,14 +302,14 @@
 <p class="Index-Level-2">3:22<span class="No-Break">–4</span>:1, [153](#_idIndexMarker393)</p>
 <p class="Index-Level-2">4:5, [582](#_idIndexMarker1084)</p>
 <p class="Index-Level-2">4:15, [133](#_idIndexMarker346)</p>
-<p class="Index-Bible-Book">1 Thessalonians</p>
+<p class="Index-Bible-Book">1 <span class="No-Ligatures">Th</span>essalonians</p>
 <p class="Index-Level-2">2:6, [116](#_idIndexMarker286)</p>
 <p class="Index-Level-2">2:13, [179](#_idIndexMarker435)</p>
 <p class="Index-Level-2">4:1<span class="No-Break">–2</span>, [337](#_idIndexMarker738)</p>
 <p class="Index-Level-2">4:1<span class="No-Break">–8</span>, [276](#_idIndexMarker645)</p>
 <p class="Index-Level-2">4:11, [93](#_idIndexMarker228), [198n*](#_idIndexMarker479), [682](#_idIndexMarker1202)</p>
 <p class="Index-Level-2">5:12, [127n†](#_idIndexMarker323)</p>
-<p class="Index-Bible-Book">2 Thessalonians</p>
+<p class="Index-Bible-Book">2 <span class="No-Ligatures">Th</span>essalonians</p>
 <p class="Index-Level-2">2:15, [179](#_idIndexMarker433)</p>
 <p class="Index-Level-2">3:6, [179](#_idIndexMarker436)</p>
 <p class="Index-Level-2">3:7<span class="No-Break">–9</span>, [179](#_idIndexMarker443)</p>

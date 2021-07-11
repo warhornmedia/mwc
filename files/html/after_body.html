@@ -19,13 +19,3 @@
       $(".navigation-next").detach().appendTo('.book-body');
    });
 </script>
-
-<!-- No Ligatures on "Th" -->
-<script>
-    <script>
-    $(window).load(function() {
-        $(".section").html(function(_, html) {
-            return  html.replace(/(>[^<]*)(Th)/g, '$1<span class="No-Ligatures">$2</span>')
-        });
-    });
-</script>

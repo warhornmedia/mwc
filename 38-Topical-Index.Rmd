@@ -596,9 +596,9 @@
 <p class="Index-Level-2">social roles in, [604](#_idIndexMarker1110)<span class="No-Break">–6</span>08</p>
 <p class="Index-Level-2">values in, [497](#_idIndexMarker957)<span class="No-Break">–5</span>02</p>
 <p class="Index-Level-1">Tertullian, [295](#_idIndexMarker676)<span class="No-Break">–2</span>96, [306](#_idIndexMarker688), [325](#_idIndexMarker725)<span class="No-Break">–3</span>26</p>
-<p class="Index-Level-1">Thecla (evangelist), [118](#_idIndexMarker297)</p>
-<p class="Index-Level-1">Theodore of Mopsuestia, [310](#_idIndexMarker697)</p>
-<p class="Index-Level-1">Theodoret of Cyrus, [310](#_idIndexMarker698)</p>
+<p class="Index-Level-1"><span class="No-Ligatures">Th</span>ecla (evangelist), [118](#_idIndexMarker297)</p>
+<p class="Index-Level-1"><span class="No-Ligatures">Th</span>eodore of Mopsuestia, [310](#_idIndexMarker697)</p>
+<p class="Index-Level-1"><span class="No-Ligatures">Th</span>eodoret of Cyrus, [310](#_idIndexMarker698)</p>
 <p class="Index-Level-1">the “world,” [550](#_idIndexMarker1030)</p>
 <p class="Index-Level-1">Tiger, Lionel, [444](#_idIndexMarker912)<span class="No-Break">–4</span>47</p>
 <p class="Index-Level-1">Toledo, Council of, [313](#_idIndexMarker711)</p>
