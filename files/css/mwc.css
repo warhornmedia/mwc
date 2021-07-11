@@ -580,7 +580,7 @@ p {
 	margin-right:0;
 	margin-bottom:0;
 	list-style-type:square;
-    list-style-type: '▸';
+    list-style-type: '▶ ';
 	margin-block-start:0;
     margin-block-end:0;
     margin-inline-start:0px;
@@ -627,6 +627,7 @@ span.Opening-Drop-Words {
     font-variant:small-caps;
     text-transform:lowercase;
     letter-spacing:.05em;
+    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last, p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS, p.BODY-STYLES_Block-Quote-w-in-Block-Quote {
@@ -685,7 +686,7 @@ span.Body-List-Counter-Float:after {
 }
 .BODY-STYLES_L-O-Bull-L1, .BODY-STYLES_L-O-Bull-L1-SA, .BODY-STYLES_L-O-Bull-L2, .BODY-STYLES_L-O-Bull-L2-SA {
     list-style-type:square;
-    list-style-type: '▸';
+    list-style-type: '▶ ';
 }
 .BODY-STYLES_L-O-Num-L1, .BODY-STYLES_L-O-Num-L1-1st, .BODY-STYLES_L-O-Num-L1-SA, .BODY-STYLES_L-O-Num-L1-Subsubhead, .BODY-STYLES_L-O-Num-L1-Subsubhead-1st, .BODY-STYLES_L-O-Num-L2 {
     list-style-type:decimal;
@@ -832,12 +833,12 @@ h1 .HEADS---SUBHEADS_Part-Number {
 
 .level2 > h2:first-child, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
     font-size:1.2em !important;
-    line-height:1.25;
+    line-height:1.25 !important;
 }
 .level2 > h2:first-child, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead {
-    letter-spacing:.025em;
-    margin-bottom:1.25em;
-    margin-top:2.5em;
+    letter-spacing:.025em !important;
+    margin-bottom:1.25em !important;
+    margin-top:2.5em !important;
 }
 .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {
     font-style:italic;
@@ -856,13 +857,13 @@ h1 .HEADS---SUBHEADS_Part-Number {
     text-transform:lowercase;
 }
 .HEADS---SUBHEADS_Subsubhead {
-    margin-top:1.75em;
+    margin-top:1.75em !important;
 }
 .HEADS---SUBHEADS_Subsubhead-After-Subhead {
-    margin-top:0;
+    margin-top:0 !important;
 }
 .HEADS---SUBHEADS_Subsubsubhead-Paragraph, .HEADS---SUBHEADS_Subsubsubhead-Paragraph-SA {
-    margin-top:1.5em;
+    margin-top:1.5em !important;
 }
 .HEADS---SUBHEADS_Subsubsubhead-Paragraph-SA {
 /*    margin-bottom:24px;*/
@@ -1099,7 +1100,7 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
 }
 .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3 {
     list-style-type:square;
-    list-style-type: '▸';
+    list-style-type: '▶ ';
 }
 .ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st, .ENDNOTES_Endnote-L-O-Num-L2 {
     list-style-type:decimal;
@@ -1373,9 +1374,13 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 .Invisible {
     color:none;
 }
+.Lining-Nums {
+    font-variant-numeric: lining-nums;
+}
 .MaWiC_Subhead-Drop-Words {
     font-variant:small-caps;
     letter-spacing:.025em;
+    font-variant-numeric: oldstyle-nums proportional nums;
 }
 .Medium {
     font-style:normal;
