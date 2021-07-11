@@ -567,6 +567,10 @@ p {
     font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-variant-numeric: proportional-nums;
+}
+
 .section td, .section th, .section tr {
 	border-style:none;
 	border-width:0px;
