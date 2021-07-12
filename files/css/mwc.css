@@ -296,7 +296,7 @@ li.divider + li.chapter a:before {
 	font-style: normal;
 }
 
-.book .book-summary ul.summary li.chapter ul li.chapter {
+.book .book-summary ul.summary li.chapter ul li {
 	font-style: italic;
     padding-left: 4px;
 }
@@ -831,7 +831,7 @@ h1 .HEADS---SUBHEADS_Part-Number {
     content: ' – ';
 }
 
-.book .book-summary ul.summary li:not(.chapter) {
+.book .book-summary ul.summary > li:not(.chapter) {
     font-weight: bold;
 }
 
