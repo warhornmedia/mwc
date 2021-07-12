@@ -998,33 +998,28 @@ span.Footnote-List-Counter-Float {
 .All-Endnotes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num, .ENDNOTES_Endnote-Chapter-Title, .ENDNOTES_Endnote-No-Num-Title {
     -epub-hyphens:none;
     -webkit-hyphens:none;
-    font-size: 1.2em;
+    font-size: 1.2em !important;
+    line-height: 1 !important;
     font-variant:small-caps;
     text-transform:lowercase;
     letter-spacing:.05em;
     orphans:99;
     break-after:avoid;
-    font-variant-numeric: oldstyle-nums proportional nums !important;
+    font-variant-numeric: oldstyle-nums proportional-nums !important;
 }
 .All-Endnotes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num {
     font-weight:bold;
-    font-size:1.2em;
-/*    margin-top:40px;*/
     margin-top:2em !important;
     margin-bottom: 0 !important;
 }
 .ENDNOTES_Endnote-Chapter-Title {
     font-weight:normal;
-    font-size:1.2em;
-/*    margin-bottom:20px;*/
     margin-bottom:1em !important;
+    margin-top: 0 !important;
 }
 .ENDNOTES_Endnote-No-Num-Title {
-/*    margin-bottom:20px;*/
     margin-bottom:1em !important;
-/*    margin-top:40px;*/
     margin-top:2em !important;
-    font-size:1.2em;
 }
 ._idGenBNMarker-16, .Endnote-Number-Float {
 /*	display:inline-block;*/
@@ -1038,16 +1033,12 @@ span.Footnote-List-Counter-Float {
     content: '\00a0';
 }
 p.ENDNOTES_Endnote-Initial_numbered, p.ENDNOTES_Endnote-Next, p.ENDNOTES_Endnote-Next-NI, p.ENDNOTES_Endnote-L-O-Master, p.ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3, p.ENDNOTES_Endnote-L-O-Num-L1, p.ENDNOTES_Endnote-L-O-Num-L1-SA, p.ENDNOTES_Endnote-L-O-Num-L1-1st, p.ENDNOTES_Endnote-L-O-Num-L2, p.ENDNOTES_Endnote-L-O-Ltr-L2 {
-/*    font-size:16px;*/
-/*    line-height:20px;*/
 }
 p.ENDNOTES_Endnote-Initial_numbered, p.ENDNOTES_Endnote-Next, p.ENDNOTES_Endnote-Next-NI {
-/*    margin-left:40px;*/
 }
 p.ENDNOTES_Endnote-Initial_numbered {
 	list-style-position:outside;
 	list-style-type:decimal;
-/*	text-indent:-40px;*/
     margin-top:1em !important;
 }
 p.ENDNOTES_Endnote-Next {
@@ -1055,10 +1046,7 @@ p.ENDNOTES_Endnote-Next {
 }
 p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-1st, p.ENDNOTES_Endnote-Block-Quote-Next, p.ENDNOTES_Endnote-Block-Quote-Last {
     font-size:95%;
-/*    line-height:18px;*/
-/*    margin-left:60px;*/
     margin-left:5%;
-/*    margin-right:20px;*/
     margin-right:5%;
 }
 p.ENDNOTES_Endnote-Block-Quote-Single + ol, p.ENDNOTES_Endnote-Block-Quote-1st + ol, p.ENDNOTES_Endnote-Block-Quote-Next + ol, p.ENDNOTES_Endnote-Block-Quote-Last + ol {
@@ -1069,15 +1057,12 @@ p.ENDNOTES_Endnote-Block-Quote-Single + ol li, p.ENDNOTES_Endnote-Block-Quote-1s
     margin-left:5%;
 }
 p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-1st, .ENDNOTES_Endnote-L-O-Num-L2 + .ENDNOTES_Endnote-Next {
-/*    margin-top:10px;*/
     margin-top:.5em !important;
 }
 p.ENDNOTES_Endnote-Block-Quote-Single, p.ENDNOTES_Endnote-Block-Quote-Last {
-/*    margin-bottom:10px;*/
     margin-bottom:.5em !important;
 }
 p.ENDNOTES_Endnote-Block-Quote-Next, p.ENDNOTES_Endnote-Block-Quote-Last {
-/*    text-indent:18px;*/
     text-indent:5%;
 }
 span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float {
@@ -1091,20 +1076,16 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
 }
 .ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3, .ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st, .ENDNOTES_Endnote-L-O-Num-L2, .ENDNOTES_Endnote-L-O-Ltr-L2 {
     list-style-position:outside;
-/*    text-indent:-30px;*/
 }
 .ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Master-SA {
-/*    margin-left:80px;*/
     margin-left:5%;
     padding-left:5%;
     text-indent:-5%;
 }
 .ENDNOTES_Endnote-L-O-Master, .ENDNOTES_Endnote-L-O-Num-L1-1st {
-/*    margin-top:10px;*/
     margin-top:.5em !important;
 }
 .ENDNOTES_Endnote-L-O-Master-SA, .ENDNOTES_Endnote-L-O-Num-L1-SA {
-/*    margin-bottom:10px;*/
     margin-bottom:.5em !important;
 }
 .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Bull-L3 {
@@ -1118,13 +1099,10 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
     list-style-type:upper-alpha;
 }
 .ENDNOTES_Endnote-L-O-Bull-L1, .ENDNOTES_Endnote-L-O-Num-L1, .ENDNOTES_Endnote-L-O-Num-L1-SA, .ENDNOTES_Endnote-L-O-Num-L1-1st {
-/*    margin-left:70px;*/
 }
 .ENDNOTES_Endnote-L-O-Num-L2, .ENDNOTES_Endnote-L-O-Ltr-L2 {
-/*    margin-left:100px;*/
 }
 .ENDNOTES_Endnote-L-O-Bull-L3 {
-/*    margin-left:130px;*/
 }
 
 
