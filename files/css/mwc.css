@@ -736,7 +736,7 @@ p.BODY-STYLES_Basic-Table-Text {
 
 /*HEADERS*/
 
-.section > h1:first-child, .level2 > h2:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
+.section > h1:first-child, .level2 > h2:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     -epub-hyphens:manual;
     -webkit-hyphens:manual;
     orphans:99;
@@ -802,26 +802,24 @@ h1 .header-section-number:before {
     padding-bottom:1.5em;
 }
 
-#1-the-scriptural-teaching > h1, #2-assessing-the-scriptural-teaching > h1, #the-scriptural-teaching-in-contemporary-society > h1, #a-christian-approach-for-today > h1 {
+#the-scriptural-teaching > h1, #assessing-the-scriptural-teaching > h1, #the-scriptural-teaching-in-contemporary-society > h1, #a-christian-approach-for-today > h1 {
     font-family: garamond-premier-pro, serif;
-    font-size: 2em !important;
     letter-spacing: 0 !important;
     text-transform: none !important;
+    font-variant-numeric: lining-nums tabular-nums !important;
     font-variant: normal !important;
     font-weight:bold !important;
     line-height:1 !important;
-    padding-bottom:.5em !important;
-    orphans:99;
-    font-variant-numeric: lining-nums tabular-nums;
 }
 
-#1-the-scriptural-teaching > h1:first-letter, #2-assessing-the-scriptural-teaching > h1:first-letter, #3-the-scriptural-teaching-in-contemporary-society > h1:first-letter, #4-a-christian-approach-for-today > h1:first-letter {
-    display: block;
-    margin-bottom: 0!important;
+#the-scriptural-teaching > h1:first-child, #assessing-the-scriptural-teaching > h1:first-child, #the-scriptural-teaching-in-contemporary-society > h1:first-child, #a-christian-approach-for-today > h1:first-child {
+    font-size: 2em !important;
+    margin-bottom: 0 !important;
 }
 
-#1-the-scriptural-teaching > h1:first-letter:before, #2-assessing-the-scriptural-teaching > h1:first-letter:before, #3-the-scriptural-teaching-in-contemporary-society > h1:first-letter:before, #4-a-christian-approach-for-today > h1:first-letter:before {
-    content: 'Part ';
+.HEADS---SUBHEADS_Part-Title {
+    font-size: 2em !important;
+    margin-bottom: 2em !important;
 }
 
 h1 .HEADS---SUBHEADS_Part-Number {
@@ -848,8 +846,20 @@ h1 .HEADS---SUBHEADS_Part-Number {
     content: 'Part ';
 }
 
-.book .book-summary ul.summary > li[data-path="04-Part-1-The-Scriptural-Teaching.html"] a:after, .book .book-summary ul.summary > li[data-path="15-Part-2-Assessing-the-Scriptural-Teaching.html"] a:after, .book .book-summary ul.summary > li[data-path="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html"] a:after, .book .book-summary ul.summary > li[data-path="29-Part-4-A-Christian-Approach-for-Today.html"] a:after {
-    content: ' – ';
+.book .book-summary ul.summary > li[data-path="04-Part-1-The-Scriptural-Teaching.html"] a:after {
+    content: ' – The Scriptural Teaching';
+}
+
+.book .book-summary ul.summary > li[data-path="15-Part-2-Assessing-the-Scriptural-Teaching.html"] a:after {
+    content: ' – Assessing the Scriptural Teaching';
+}
+
+.book .book-summary ul.summary > li[data-path="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html"] a:after {
+    content: ' – The Scriptural Teaching in Contemporary Society';
+}
+
+.book .book-summary ul.summary > li[data-path="29-Part-4-A-Christian-Approach-for-Today.html"] a:after {
+    content: ' – A Christian Approach for Today';
 }
 
 .level2 > h2:first-child, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead {

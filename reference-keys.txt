@@ -1,3 +1,4 @@
+section
 from-the-beginning
 sin-and-the-new-adam
 the-family-husbands-and-wives
@@ -7,6 +8,7 @@ social-roles-and-galatians-328
 the-community-key-texts-1-corinthians-11216-143336
 the-community-key-texts-1-timothy-2815
 summary-the-new-testament-teaching-as-a-whole
+section-1
 the-new-testament-approach-jesus-and-paul
 the-new-testament-approach-setting-and-culture
 christian-tradition-husbands-and-wives
