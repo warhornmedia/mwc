@@ -28,7 +28,9 @@
 <li class="BODY-STYLES_L-O-Num-L1"><!--<span class="Body-List-Counter-Float">2.</span>--><span class="Italic"><span class="No-Ligatures">Th</span>e differences between men and women are not absolutes.</span> <span class="No-Ligatures">Th</span>is principle applies especially to individual personality traits such as aggressiveness, emotional expressiveness, or nurturance. For example, as will be discussed in detail later, evidence indicates that men are more aggressive than women. However, this is a generalization. <span class="No-Ligatures">Th</span>e actual results of testing a representative sample of men and women for aggressiveness looks something like an overlapping double bell-shaped curve on a graph (see the illustration below). <span class="No-Ligatures">Th</span>e overall distribution of the curves shows men higher on aggression. Some women would be more aggressive than most of the men, but men appear in greater proportions at increasingly higher levels of aggression.
 <div>
 <div id="_idContainer022" class="Illustration">
-<img src="image/AggressivenessGraph.png" alt="" />
+```{r, echo=FALSE, fig.align='center', out.width='50%'}
+knitr::include_graphics("files/images/AggressivenessGraph.png")
+```
 </div>
 </div>
 <p class="BODY-STYLES_Para-w-in-List-Item-L1">A statement like “men are more aggressive than women” is a generalization.<a id="_idTextAnchor666"></a><span class="Endnote-Ref">[2](#_idTextAnchor1650)</span> <span class="No-Ligatures">Th</span>e bell-shaped curve is the curve of probability. <span class="No-Ligatures">Th</span>e larger the sample of men and women being tested, the more accurate the results will be. <span class="No-Ligatures">Th</span>e smaller the sample, the more unreliable the results. In other words, conclusions from psychological tests for trait differences are not absolutes. <span class="No-Ligatures">Th</span>ey are statements of probability.</p>
