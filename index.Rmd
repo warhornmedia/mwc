@@ -14,7 +14,7 @@ output:
       toc:
         scroll_highlight: yes
         before: |
-          <li><a href="https://warhornmedia.github.io/mwc/"><img src="upper-left-title-image.png" width="260"></a></li>
+          <li><a href="https://warhornmedia.github.io/mwc/"><img src="/files/images/upper-left-title-image.png" width="260"></a></li>
           <li><a href="./">Man and Woman in Christ — Clark</a></li>
         after: |
 documentclass: book
