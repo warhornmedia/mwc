@@ -756,7 +756,7 @@ p.BODY-STYLES_Basic-Table-Text {
     font-weight:normal !important;
     font-size: 1.5em !important;
     line-height: 1 !important;
-    margin-bottom: 70px !important;
+    margin-bottom: 2em !important;
 }
 
 .section > h1:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
