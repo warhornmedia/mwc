@@ -1568,6 +1568,12 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 /*    margin-left:36px;*/
     text-align:center;
 }
+.color-theme-1 #_idContainer022 {
+    filter: opacity(.8);
+}
+.color-theme-2 #_idContainer022 {
+    filter: invert(.8);
+}
 #_idContainer022 img {
     height:auto;
     width:100%;
