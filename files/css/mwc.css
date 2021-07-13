@@ -807,11 +807,6 @@ p.BODY-STYLES_Basic-Table-Text {
 
 /*HEADERS*/
 
-.book .book-body .page-wrapper .page-inner section.normal h1, .book .book-body .page-wrapper .page-inner section.normal h2, .book .book-body .page-wrapper .page-inner section.normal h3, .book .book-body .page-wrapper .page-inner section.normal h4, .book .book-body .page-wrapper .page-inner section.normal h5, .book .book-body .page-wrapper .page-inner section.normal h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .section > h1:first-child, .level2 > h2:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     -epub-hyphens:manual;
     -webkit-hyphens:manual;
