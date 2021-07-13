@@ -296,10 +296,69 @@ li.divider + li.chapter a:before {
 	font-style: normal;
 }
 
+/*SUBHEAD SUBLISTS*/
+
+/*general/white*/
+
+.book .book-summary ul.summary li.chapter ul {
+    background-color: rgb(237, 237, 237);
+}
+
+.book .book-summary ul.summary li.chapter li a, .book .book-summary ul.summary li.chapter li span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .book .book-summary ul.summary li.chapter ul li {
 	font-style: italic;
     padding-left: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: lightgray;
 }
+
+.book .book-summary ul.summary li.chapter ul li:first-child {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgray;
+}
+
+/*sepia*/
+
+.color-theme-1 .book-summary ul.summary li.chapter ul {
+    background-color: rgb(77, 77, 77);
+}
+
+.color-theme-1 .book-summary ul.summary li.chapter ul li {
+    border-color: rgb(100, 100, 100);
+}
+
+.color-theme-1 .book-summary ul.summary li.chapter ul li:first-child {
+    border-top-color: rgb(100, 100, 100);
+}
+
+.color-theme-1 .book-summary ul.summary li.chapter ul li > a:hover, .color-theme-1 .book-summary ul.summary li.chapter ul li > a:active {
+    color: #f3eacb;
+}
+
+/*night*/
+
+.color-theme-2 .book-summary ul.summary li.chapter ul {
+    background-color: #252737;
+}
+
+.color-theme-2 .book-summary ul.summary li.chapter ul li {
+    border-color: #2d3143;
+}
+
+.color-theme-2 .book-summary ul.summary li.chapter ul li:first-child {
+    border-top-color: #2d3143;
+}
+
+.color-theme-2 .book-summary ul.summary li.chapter ul li > a:hover, .color-theme-1 .book-summary ul.summary li.chapter ul li > a:active {
+}
+
+/*--*/
 
 .book .book-summary ul.summary li.chapter b {
 	font-style: normal;
@@ -310,9 +369,18 @@ li.divider + li.chapter a:before {
     left: 10px;
 }
 
-.book .book-summary ul.summary li.chapter a, .book .book-summary ul.summary li.chapter span:not(.No-Ligatures) {
+.book .book-summary ul.summary li.chapter a, .book .book-summary ul.summary li.chapter span {
     text-indent: -24px;
     padding-left: 48px;
+}
+
+.book .book-summary ul.summary li.chapter span.No-Ligatures, .book .book-summary ul.summary li.chapter span.Lining-Nums, .book .book-summary ul.summary li.chapter span.No-Break {
+    text-indent: 0px;
+    padding-left: 0px;
+}
+
+.book .book-summary ul.summary li.chapter span.Endnote-Ref, .book .book-summary ul.summary li.chapter span.Footnote-Ref {
+    display: none;
 }
 
 .book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
@@ -360,18 +428,21 @@ li.divider + li.chapter a:before {
 /* LOGO IMAGES */
 
 .book .book-summary .summary li a img {
-	background-image: url("../images/whitelogo-blackletter.png");
+	background-image: url("../images/warhorn-logo-white-01.png");
 	background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .book.color-theme-1 .summary li a img {
-	background-image: url("../images/sepialogo-blackletter.png");
+	background-image: url("../images/warhorn-logo-sepia-02.png");
 	background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .book.color-theme-2 .summary li a img {
-	background-image: url("../images/nightlogo-blackletter.png");
+	background-image: url("../images/warhorn-logo-night-03.png");
 	background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* WHITE THEME (no class) */
@@ -838,8 +909,10 @@ h1 .HEADS---SUBHEADS_Part-Number {
     content: ' – ';
 }
 
-.book .book-summary ul.summary > li[data-path="04-Part-1-The-Scriptural-Teaching.html"], .book .book-summary ul.summary > li[data-path="15-Part-2-Assessing-the-Scriptural-Teaching.html"], .book .book-summary ul.summary > li[data-path="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html"], .book .book-summary ul.summary > li[data-path="29-Part-4-A-Christian-Approach-for-Today.html"] {
-    font-weight: bold;
+.book .book-summary ul.summary li[data-path="04-Part-1-The-Scriptural-Teaching.html"] a, .book .book-summary ul.summary li[data-path="15-Part-2-Assessing-the-Scriptural-Teaching.html"] a, .book .book-summary ul.summary li[data-path="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html"] a, .book .book-summary ul.summary li[data-path="29-Part-4-A-Christian-Approach-for-Today.html"] a {
+    font-weight: bold !important;
+    text-indent: 0px;
+    padding-left: 15px;
 }
 
 .book .book-summary ul.summary > li[data-path="04-Part-1-The-Scriptural-Teaching.html"] a:before, .book .book-summary ul.summary > li[data-path="15-Part-2-Assessing-the-Scriptural-Teaching.html"] a:before, .book .book-summary ul.summary > li[data-path="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html"] a:before, .book .book-summary ul.summary > li[data-path="29-Part-4-A-Christian-Approach-for-Today.html"] a:before {
