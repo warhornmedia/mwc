@@ -697,6 +697,7 @@ p.BODY-STYLES_Body-NI {
 }
 p.BODY-STYLES_Chapter-Opening, p.BODY-STYLES_Chapter-Opening-SA, p.BODY-STYLES_Part-Opening, p.BODY-STYLES_Subhead-Opening, p.BODY-STYLES_Subhead-Opening-SA {
     break-before:avoid;
+    margin-top: 1.75em !important;
 }
 span.Opening-Drop-Words {
     font-variant:small-caps;
@@ -807,6 +808,11 @@ p.BODY-STYLES_Basic-Table-Text {
 
 /*HEADERS*/
 
+.book .book-body .page-wrapper .page-inner section.normal h1, .book .book-body .page-wrapper .page-inner section.normal h2, .book .book-body .page-wrapper .page-inner section.normal h3, .book .book-body .page-wrapper .page-inner section.normal h4, .book .book-body .page-wrapper .page-inner section.normal h5, .book .book-body .page-wrapper .page-inner section.normal h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .section > h1:first-child, .level2 > h2:first-child, .HEADS---SUBHEADS_Chapter-Number, .HEADS---SUBHEADS_Chapter-Title, .HEADS---SUBHEADS_No-Num-Section-Title, .HEADS---SUBHEADS_Part-Title, .HEADS---SUBHEADS_Part-1-Title, .HEADS---SUBHEADS_Part-2-Title, .HEADS---SUBHEADS_Part-3-Title, .HEADS---SUBHEADS_Part-4-Title, .HEADS---SUBHEADS_Part-Number, .HEADS---SUBHEADS_Subhead, .HEADS---SUBHEADS_Subsubhead, .HEADS---SUBHEADS_Subsubhead-After-Subhead, .HEADS---SUBHEADS_Less-Than-Subhead, .F-B-MATTER_F-B-Matter-Section-Name, .F-B-MATTER_F-B-Matter-Section-Name-Hi, .TOC_TOC-Title {
     -epub-hyphens:manual;
     -webkit-hyphens:manual;
@@ -857,7 +863,7 @@ h1 .header-section-number:before {
     font-size: .45em !important;
 }
 
-#G2EV > h1:first-child, #preface > h1:first-child, #note-on-method-exegesis > h1:first-child, #note-on-method-social-science > h1:first-child, #afterword > h1:first-child, bibliography > h1:first-child, #notes > h1:first-child, #scripture-index > h1:first-child, #topical-index > h1:first-child, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
+#G2EV > h1:first-child, #preface > h1:first-child, #note-on-method-exegesis > h1:first-child, #note-on-method-social-science > h1:first-child, #afterword > h1:first-child, #bibliography > h1:first-child, #notes > h1:first-child, #scripture-index > h1:first-child, #topical-index > h1:first-child, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
     margin-top:20%;
 }
 .TOC_TOC-Title, .F-B-MATTER_F-B-Matter-Section-Name-Hi {
@@ -873,24 +879,41 @@ h1 .header-section-number:before {
     padding-bottom:1.5em;
 }
 
-#the-scriptural-teaching > h1, #assessing-the-scriptural-teaching > h1, #the-scriptural-teaching-in-contemporary-society > h1, #a-christian-approach-for-today > h1 {
+#section > h1 a.anchor-section, #section-1 > h1 a.anchor-section, #section-2 > h1 a.anchor-section, #section-3 > h1 a.anchor-section {
+    display: none;
+}
+
+#section > h1, #section-1 > h1, #section-2 > h1, #section-3 > h1 {
     font-family: garamond-premier-pro, serif;
     letter-spacing: 0 !important;
     text-transform: none !important;
     font-variant-numeric: lining-nums tabular-nums !important;
     font-variant: normal !important;
-    font-weight:bold !important;
-    line-height:1 !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+    border-bottom-style: solid;
 }
 
-#the-scriptural-teaching > h1:first-child, #assessing-the-scriptural-teaching > h1:first-child, #the-scriptural-teaching-in-contemporary-society > h1:first-child, #a-christian-approach-for-today > h1:first-child {
-    font-size: 2em !important;
+#section > h1:first-child, #section-1 > h1:first-child, #section-2 > h1:first-child, #section-3 > h1:first-child {
+    font-size: 6em !important;
+    line-height: 1;
     margin-bottom: 0 !important;
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: right !important;
+    height: 1.5em;
+    padding-right: .1em;
+    border-bottom-width: .015em;
+    padding-bottom: .15em;
 }
 
 .HEADS---SUBHEADS_Part-Title {
     font-size: 2em !important;
-    margin-bottom: 2em !important;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 100%;
+    border-bottom-width: .045em;
+    padding-bottom: .9em;
 }
 
 h1 .HEADS---SUBHEADS_Part-Number {
