@@ -863,7 +863,7 @@ h1 .header-section-number:before {
     font-size: .45em !important;
 }
 
-#G2EV > h1:first-child, #preface > h1:first-child, #note-on-method-exegesis > h1:first-child, #note-on-method-social-science > h1:first-child, #afterword > h1:first-child, bibliography > h1:first-child, #notes > h1:first-child, #scripture-index > h1:first-child, #topical-index > h1:first-child, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
+#G2EV > h1:first-child, #preface > h1:first-child, #note-on-method-exegesis > h1:first-child, #note-on-method-social-science > h1:first-child, #afterword > h1:first-child, #bibliography > h1:first-child, #notes > h1:first-child, #scripture-index > h1:first-child, #topical-index > h1:first-child, .HEADS---SUBHEADS_No-Num-Section-Title, .F-B-MATTER_F-B-Matter-Section-Name {
     margin-top:20%;
 }
 .TOC_TOC-Title, .F-B-MATTER_F-B-Matter-Section-Name-Hi {
