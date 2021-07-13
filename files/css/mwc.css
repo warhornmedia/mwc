@@ -166,15 +166,16 @@ section#section-.normal {
     display: none;
 }
 
-#about-this-book h1 {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: .01em;
-    text-transform: none;
-    font-variant: normal;
-    font-size: 1.2em;
-    border: none;
+#publication-info > h1:first-child {
+    display: none;
+}
+
+#pub-page-cover {
+    float: right;
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 3px 3px 3px 3px black;
 }
 
 /* --- */
@@ -916,6 +917,16 @@ h1 .header-section-number:before {
     padding-bottom: .9em;
 }
 
+@media screen and (max-width: 800px) {
+    #section > h1:first-child, #section-1 > h1:first-child, #section-2 > h1:first-child, #section-3 > h1:first-child {
+        font-size: 12vw !important;
+        height: calc(1.5em + 20px)
+    }
+    .HEADS---SUBHEADS_Part-Title {
+        font-size: 4vw !important;
+    }
+}
+
 h1 .HEADS---SUBHEADS_Part-Number {
     font-size:150%;
     line-height:1;
@@ -1469,6 +1480,7 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
     font-variant:small-caps;
     text-transform:lowercase;
     letter-spacing:.01em;
+    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 .Regular {
     font-style:normal;
