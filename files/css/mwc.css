@@ -170,12 +170,46 @@ section#section-.normal {
     display: none;
 }
 
-#pub-page-cover {
+#pub-page-ad {
     float: right;
     width: 200px;
     position: relative;
-    bottom: 50px;
-    box-shadow: 3px 3px 3px 3px black;
+    bottom: 90px;
+}
+
+#pub-page-cover {
+    box-shadow: 7px 7px 20px 0px #000;
+    margin: 5px;
+}
+
+.Buy-Buttons {
+    text-align:center;
+    margin-top:1em;
+    break-before:avoid;
+}
+.Buy-Buttons a {
+    color:white !important;
+}
+.Buy-Buttons a:hover {
+    text-decoration:underline;
+}
+.Buy-Button {
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    letter-spacing:.02em;
+    font-family: acumin-pro, sans-serif;
+    background-color:#0f7f8d;
+    display:inline-block;
+    padding:1em;
+    margin-bottom:1em !important;
+    margin-left:.5em;
+    margin-right:.5em;
+    border-radius:.5em;
+    orphans:99;
+    break-before:avoid;
+    break-after:avoid;
+    max-width: 180px;
 }
 
 /* --- */
@@ -1332,34 +1366,7 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
 #Man-and-Woman-in-Christ_Guide-to-Electronic-Versions a, #Man-and-Woman-in-Christ_ebook-export-38 a {
     font-weight:bold;
 }
-.Buy-Buttons {
-    text-align:center;
-    margin-top:1em;
-    break-before:avoid;
-}
-.Buy-Buttons a {
-    color:white !important;
-}
-.Buy-Buttons a:hover {
-    text-decoration:underline;
-}
-.Buy-Button {
-    text-align:center;
-    color:white;
-    font-weight:bold;
-    letter-spacing:.02em;
-    font-family:sans-serif;
-    background-color:#0f7f8d;
-    display:inline-block;
-    padding:1em;
-    margin-bottom:1em !important;
-    margin-left:.5em;
-    margin-right:.5em;
-    border-radius:.5em;
-    orphans:99;
-    break-before:avoid;
-    break-after:avoid;
-}
+
 p.F-B-MATTER_Bibliography-Entry {
 /*	margin-left:24px;*/
     margin-left:5%;
