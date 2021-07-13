@@ -697,6 +697,7 @@ p.BODY-STYLES_Body-NI {
 }
 p.BODY-STYLES_Chapter-Opening, p.BODY-STYLES_Chapter-Opening-SA, p.BODY-STYLES_Part-Opening, p.BODY-STYLES_Subhead-Opening, p.BODY-STYLES_Subhead-Opening-SA {
     break-before:avoid;
+    margin-top: 1.75em !important;
 }
 span.Opening-Drop-Words {
     font-variant:small-caps;
@@ -878,24 +879,41 @@ h1 .header-section-number:before {
     padding-bottom:1.5em;
 }
 
-#the-scriptural-teaching > h1, #assessing-the-scriptural-teaching > h1, #the-scriptural-teaching-in-contemporary-society > h1, #a-christian-approach-for-today > h1 {
+#section > h1 a.anchor-section, #section-1 > h1 a.anchor-section, #section-2 > h1 a.anchor-section, #section-3 > h1 a.anchor-section {
+    display: none;
+}
+
+#section > h1, #section-1 > h1, #section-2 > h1, #section-3 > h1 {
     font-family: garamond-premier-pro, serif;
     letter-spacing: 0 !important;
     text-transform: none !important;
     font-variant-numeric: lining-nums tabular-nums !important;
     font-variant: normal !important;
-    font-weight:bold !important;
-    line-height:1 !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+    border-bottom-style: solid;
 }
 
-#the-scriptural-teaching > h1:first-child, #assessing-the-scriptural-teaching > h1:first-child, #the-scriptural-teaching-in-contemporary-society > h1:first-child, #a-christian-approach-for-today > h1:first-child {
-    font-size: 2em !important;
+#section > h1:first-child, #section-1 > h1:first-child, #section-2 > h1:first-child, #section-3 > h1:first-child {
+    font-size: 6em !important;
+    line-height: 1;
     margin-bottom: 0 !important;
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: right !important;
+    height: 1.5em;
+    padding-right: .1em;
+    border-bottom-width: .015em;
+    padding-bottom: .15em;
 }
 
 .HEADS---SUBHEADS_Part-Title {
     font-size: 2em !important;
-    margin-bottom: 2em !important;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 100%;
+    border-bottom-width: .045em;
+    padding-bottom: .9em;
 }
 
 h1 .HEADS---SUBHEADS_Part-Number {
