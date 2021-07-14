@@ -72,8 +72,8 @@ section#section-.normal {
     left: calc(-50vw + 50%);
     top: -25px;
     padding-bottom: 25px;
-    background-image: url("../images/triangles.png");
-    background-color: #1aa9ab;
+/*    background-image: url("../images/triangles.png");*/
+    background-color: #245261;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -97,7 +97,7 @@ section#section-.normal {
 }
 
 .color-theme-2 #header { /* night title header */
-    background-color: #c1c6d7;
+    background-color: #3f5061;
 /*    -moz-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
 /*    -webkit-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
 /*    box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);*/
