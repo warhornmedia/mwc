@@ -4,7 +4,7 @@
 <h3 class="TOC_TOC-F-B-Matter">[Preface](#preface)</h3>
 <div class="TOC-Part-Title-Container">
 <h2 class="TOC_Huge-TOC-Part-Number">[Part 1](#section)</h2>
-<h2 class="TOC-Part-Title">[<span class="No-Ligatures">Th</span>e Scrip&#173;tural Teach&#173;ing](#section)</h2>
+<h2 class="TOC-Part-Title">[<span class="No-Ligatures">Th</span>e Scrip&#173;tural <br />Teach&#173;ing](#section)</h2>
 </div>
 <!--<h3 class="TOC-Chapter-Num">[1](#_idTextAnchor004)</h3>-->
 <ol>
@@ -71,7 +71,7 @@
 </ol>
 <div class="TOC-Part-Title-Container">
 <h2 class="TOC_Huge-TOC-Part-Number">[Part 2](#section-1)</h2>
-<h2 class="TOC-Part-Title">[Assessing the Scrip&#173;tural Teach&#173;ing](#section-1)</h2>
+<h2 class="TOC-Part-Title">[Assessing the <br />Scrip&#173;tural Teach&#173;ing](#section-1)</h2>
 </div>
 <!--<h3 class="TOC-Chapter-Num">[10](#_idTextAnchor420)</h3>-->
 <ol>
@@ -110,7 +110,7 @@
 </ol>
 <div class="TOC-Part-Title-Container">
 <h2 class="TOC_Huge-TOC-Part-Number">[Part 3](#section-2)</h2>
-<h2 class="TOC-Part-Title">[<span class="No-Ligatures">Th</span>e Scrip&#173;tural Teach&#173;ing in Contem&#173;porary Society](#section-2)</h2>
+<h2 class="TOC-Part-Title">[<span class="No-Ligatures">Th</span>e Scrip&#173;tural Teach&#173;ing in <br />Contem&#173;porary Society](#section-2)</h2>
 </div>
 <!--<h3 class="TOC-Chapter-Num">[16](#_idTextAnchor663)</h3>-->
 <ol>
@@ -154,7 +154,7 @@
 </ol>
 <div class="TOC-Part-Title-Container">
 <h2 class="TOC_Huge-TOC-Part-Number">[Part 4](#section-3)</h2>
-<h2 class="TOC-Part-Title">[A Christian Approach for To&#173;day](#setion-3)</h2>
+<h2 class="TOC-Part-Title">[A Christian <br />Approach for To&#173;day](#setion-3)</h2>
 </div>
 <ol>
 <!--<h3 class="TOC-Chapter-Num">[21](#_idTextAnchor1110)</h3>-->
