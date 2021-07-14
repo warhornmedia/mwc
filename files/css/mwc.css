@@ -73,7 +73,7 @@ section#section-.normal {
     top: -25px;
     padding-bottom: 25px;
 /*    background-image: url("../images/triangles.png");*/
-    background-color: #245261;
+    background-color: rgba(87, 134, 137, 1);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
