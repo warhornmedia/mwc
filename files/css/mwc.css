@@ -1355,6 +1355,9 @@ span._idGenBNMarker-17, span._idGenBNMarker-18, span.Endnote-List-Counter-Float 
     margin-top:1em !important;
     list-style-type:none;
 }
+.TOC_TOC-No-Num > a, .TOC_TOC-No-Num-Scrunch > a {
+    margin-left: -40px;
+}
 .TOC_TOC-Subsection, .TOC_TOC-Subsection-Scrunch {
     -epub-hyphens:manual;
     -webkit-hyphens:manual;
