@@ -180,6 +180,7 @@ section#section-.normal {
 
 #pub-page-cover {
     box-shadow: 7px 7px 20px 0px #000;
+    max-width: 200px;
 }
 
 .Buy-Buttons {
@@ -962,11 +963,11 @@ h1 .header-section-number:before {
 
 @media screen and (max-width: 800px) {
     #section > h1:first-child, #section-1 > h1:first-child, #section-2 > h1:first-child, #section-3 > h1:first-child {
-        font-size: 12vw !important;
+        font-size: 18vw !important;
         height: calc(1.5em + 20px)
     }
     .HEADS---SUBHEADS_Part-Title {
-        font-size: 4vw !important;
+        font-size: 6vw !important;
     }
 }
 
