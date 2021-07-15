@@ -184,7 +184,7 @@ section#section-.normal {
 }
 
 .Sidebar-Buy-Button {
-    text-align: center;
+/*    text-align: center;*/
 }
 
 .book .book-summary ul.summary li.Sidebar-Buy-Button a {
@@ -1194,11 +1194,11 @@ span.Footnote-List-Counter-Float {
 /*ENDNOTES*/
 
 
-.All-Endnotes {
+#notes .level2 {
     font-size:90%;
 }
 
-.All-Endnotes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num, .ENDNOTES_Endnote-Chapter-Title, .ENDNOTES_Endnote-No-Num-Title {
+#notes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num, .ENDNOTES_Endnote-Chapter-Title, .ENDNOTES_Endnote-No-Num-Title {
     -epub-hyphens:none;
     -webkit-hyphens:none;
     font-size: 1.2em !important;
@@ -1210,7 +1210,7 @@ span.Footnote-List-Counter-Float {
     break-after:avoid;
     font-variant-numeric: oldstyle-nums proportional-nums !important;
 }
-.All-Endnotes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num {
+#notes .level2 > h2:first-child, .ENDNOTES_Endnote-Chapter-Num {
     font-weight:bold;
     margin-top:2em !important;
     margin-bottom: 0 !important;
@@ -1496,7 +1496,7 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 .Invisible {
     color:none;
 }
-.Lining-Nums {
+.Lining-Nums, .MaWiC_Bible-Book-Nums {
     font-variant-numeric: lining-nums;
 }
 .MaWiC_Subhead-Drop-Words {
