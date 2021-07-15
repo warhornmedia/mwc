@@ -48,7 +48,7 @@ NIGHT THEME
 }
 
 .book.font-family-1 {
-	font-family: acumin-pro, sans-serif;
+	font-family: garamond-premier-pro-caption, sans-serif;
 }
 
 .book.font-family-0, .book.font-family-1 {
@@ -181,6 +181,29 @@ section#section-.normal {
 #pub-page-cover {
     box-shadow: 7px 7px 20px 0px #000;
     max-width: 200px;
+}
+
+.Sidebar-Buy-Button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book .book-summary ul.summary li.Sidebar-Buy-Button a {
+    font-size: 18px;
+    font-color: white !important;
+    background-color: #0f7f8d;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+.Sidebar-Buy-Button a:hover, .Sidebar-Buy-Button a:active {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #0f7f8d;
+    padding: 3px;
+    font-color: #0f7f8d;
 }
 
 .Buy-Buttons {
