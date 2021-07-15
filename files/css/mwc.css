@@ -53,9 +53,9 @@ NIGHT THEME
 
 .book.font-family-0, .book.font-family-1 {
     font-variant-ligatures: common-ligatures;
-  	-moz-font-feature-settings: "liga", "clig";
-  	-webkit-font-feature-settings: "liga", "clig";
-  	font-feature-settings: "liga", "clig";
+  	-moz-font-feature-settings: "liga", "clig", "calt" 0;
+  	-webkit-font-feature-settings: "liga", "clig", "calt" 0;
+  	font-feature-settings: "liga", "clig", "calt" 0;
 }
 
 /* HEADING STYLES */
@@ -185,25 +185,27 @@ section#section-.normal {
 
 .Sidebar-Buy-Button {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .book .book-summary ul.summary li.Sidebar-Buy-Button a {
-    font-size: 18px;
-    font-color: white !important;
-    background-color: #0f7f8d;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 10px 15px;
+    font-size: 16px;
+    color: white !important;
+    background-color: #00a9ac;
+    padding: 8px 15px 8px 15px;
+    border-radius: 21px;
+    margin: 0px 15px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.Sidebar-Buy-Button a:hover, .Sidebar-Buy-Button a:active {
+.book .book-summary ul.summary .Sidebar-Buy-Button a:hover, .book .book-summary ul.summary .Sidebar-Buy-Button a:active {
     background-color: transparent;
     border-width: 2px;
+    border-style: solid;
     border-color: #0f7f8d;
-    padding: 3px;
-    font-color: #0f7f8d;
+    padding: 6px 13px 6px 13px;
+    color: #0f7f8d !important;
 }
 
 .Buy-Buttons {
@@ -784,7 +786,7 @@ p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_B
 .BODY-STYLES_Block-Quote-w-in-Block-Quote {
     margin-left:3.125em;
     margin-right:3.125em;
-    margin-top:.78125em;
+    margin-top:.78125em !important;
     margin-bottom:.78125em !important;
 }
 p.BODY-STYLES_Block-Quote-Single, p.BODY-STYLES_Block-Quote-1st, p.BODY-STYLES_Block-Quote-Next, p.BODY-STYLES_Block-Quote-Last {
@@ -804,13 +806,13 @@ p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2, p.BODY-S
     -ms-hyphens:manual;
 }
 p.BODY-STYLES_Poetry, p.BODY-STYLES_Poetry-SA {
-    padding-left:4.6875em;
+    padding-left:6.25em;
 }
 p.BODY-STYLES_Poetry-SA, p.BODY-STYLES_Poetry-L2-SA, p.BODY-STYLES_Poetry-Citation {
     margin-bottom:1.5625em !important;
 }
 p.BODY-STYLES_Poetry-L2, p.BODY-STYLES_Poetry-L2-SA {
-    padding-left:6.25em;
+    padding-left:7.8125em;
 }
 p.BODY-STYLES_Poetry-Citation, p.BODY-STYLES_Poetry-Citation-NS {
     text-align:right;
@@ -1557,7 +1559,8 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 	float:left;
 	margin-top:-.09em;
 	margin-bottom:-.3em;
-	margin-right:.03em; 
+	margin-right:.03em;
+    opacity: .9;
 }
 .two-em-dash {
     letter-spacing:-.3em;
