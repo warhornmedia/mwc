@@ -179,6 +179,7 @@ section#section-.normal {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    font-family: acumin-pro, sans-serif;
 }
 
 #pub-page-cover {
@@ -197,20 +198,21 @@ section#section-.normal {
     font-weight: bold;
     font-family: acumin-pro, sans-serif;
     color: white !important;
-    background-color: #00a9ac;
+    background-color: #00a9ac !important;
     padding: 6px 13px 7px 13px;
     border-width: 2px;
     border-style: solid;
     border-color: #0f7f8d;
     border-radius: 21px;
     display: inline-block;
-    text-transform: uppercase;
 }
 
 .Buy-Button a:hover, .Buy-Button a:active, .Download-Button a:hover, .Download-Button a:active {
-    background-color: transparent;
+    background-color: transparent !important;
     color: #0f7f8d !important;
     transition: background-color ease .3s;
+    text-decoration: none !important;
+    position: relative;
 }
 
 .Download-Button a:hover:after {
@@ -219,7 +221,7 @@ section#section-.normal {
     font-size: 24px;
     line-height: 24px;
     position: absolute;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .8) !important;
     width: calc(100% - 26px);
     padding: 6px 13px 7px 13px;
     border-radius: 21px;
