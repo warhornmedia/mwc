@@ -16,7 +16,7 @@ output:
         before: |
           <li><a href="https://warhornmedia.com"><img src="files/images/warhornlogo-empty.png" width="260"></a></li>
           <li><a href="./">Man and Woman in Christ — Clark</a></li>
-          <li class="Sidebar-Buy-Button"><a href="https://www.amazon.com/dp/1940017300/ref=cm_sw_em_r_mt_dp_PS3GVKNP9NTWBF4V6ECT" target="_blank">Buy Book</a></li>
+          <li class="Buy-Button"><a href="https://www.amazon.com/dp/1940017300/ref=cm_sw_em_r_mt_dp_PS3GVKNP9NTWBF4V6ECT" target="_blank">Buy Book</a></li>
         after: |
 documentclass: book
 always_allow_html: yes
@@ -32,8 +32,8 @@ site: bookdown::bookdown_site
 <p class="Download-Button"><a>EPUB</a></p>
 <p class="Download-Button"><a>Mobi</a></p>
 <p>Buy</p>
-<p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">On Amazon</a></p>
-<p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">From WARHORN</a></p>
+<p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">Amazon</a></p>
+<p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">WARHORN</a></p>
 </div>
 <p id="_idParaDest-124" class="F-B-MATTER_Copyright-Info-1st"><a id="_idTextAnchor2011"></a><span class="ALL-CAPS">Warhorn Media</span></p>
 <p class="F-B-MATTER_Copyright-Info">2401 S Endwright Rd.</p>
