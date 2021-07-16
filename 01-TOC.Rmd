@@ -11,7 +11,7 @@
 <li class="TOC_TOC-Chapter">[From the Begin&#173;ning](#from-the-beginning)
 <h4 class="TOC_TOC-Subsection">[Genesis and Truth](#_idTextAnchor008)</h4>
 <h4 class="TOC_TOC-Subsection">[<span class="No-Ligatures">Th</span>e Beginning of Genesis](#_idTextAnchor016)</h4>
-<h4 class="TOC_TOC-Subsection">[Genesis 1&#160;&#160;▷&#160; Male and Female](#_idTextAnchor019)</h4>
+<h4 class="TOC_TOC-Subsection">[Genesis 1&#160;&#160;▷&#160; Male and Female](#_idTextAnchorBroken019)</h4>
 <h4 class="TOC_TOC-Subsection">[Genesis 2&#160;&#160;▷&#160; Flesh of My Flesh](#_idTextAnchor022)</h4>
 <h4 class="TOC_TOC-Subsection">[Genesis 2&#160;&#160;▷&#160; Subordi&#173;nation](#_idTextAnchor038)</h4>
 </li>
