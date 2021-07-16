@@ -171,7 +171,7 @@ section#section-.normal {
     font-size: 18px;
     font-weight: bold;
     font-family: acumin-pro, sans-serif;
-    z-index: 99;
+    z-index: 1;
 }
 
 #Copyright-Info {
