@@ -174,12 +174,30 @@ section#section-.normal {
     float: right;
     width: 200px;
     position: relative;
-    bottom: 75px;
+    top: -75px;
     margin: 5px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     font-family: acumin-pro, sans-serif;
+}
+
+#Copyright-Info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #pub-page-ad {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    #Copyright-Info {
+        position: relative;
+        top: -75px;
+    }
 }
 
 #pub-page-cover {
@@ -199,12 +217,16 @@ section#section-.normal {
     font-family: acumin-pro, sans-serif;
     color: white !important;
     background-color: #00a9ac !important;
-    padding: 6px 13px 7px 13px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #0f7f8d;
+    padding: 6px 13px 7px 13px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: #0f7f8d !important;
     border-radius: 21px;
-    display: inline-block;
+    display: inline-block !important;
+}
+
+.book .book-summary ul.summary li.Buy-Button a {
+    margin: 0px 15px;
 }
 
 .Buy-Button a:hover, .Buy-Button a:active, .Download-Button a:hover, .Download-Button a:active {
@@ -230,12 +252,6 @@ section#section-.normal {
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-    #pub-page-ad {
-        width: 100%;
-        text-align: center;
-        margin: auto;
-    }
 }
 
 /* --- */

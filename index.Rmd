@@ -35,6 +35,7 @@ site: bookdown::bookdown_site
 <p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">Amazon</a></p>
 <p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">WARHORN</a></p>
 </div>
+<div id="Copyright-Info">
 <p id="_idParaDest-124" class="F-B-MATTER_Copyright-Info-1st"><a id="_idTextAnchor2011"></a><span class="ALL-CAPS">Warhorn Media</span></p>
 <p class="F-B-MATTER_Copyright-Info">2401 S Endwright Rd.</p>
 <p class="F-B-MATTER_Copyright-Info">Bloomington, Indiana 47403</p>
@@ -51,3 +52,4 @@ site: bookdown::bookdown_site
 <p class="F-B-MATTER_Copyright-Info-Indented"><span class="OT-All-Small-Caps">Manuscript prep</span>: Ben Sulser</p>
 <p class="F-B-MATTER_Copyright-Info-Indented-SA"><span class="OT-All-Small-Caps">Proofreading</span>: David Canfield, Daniel Meyer</p>
 <p class="F-B-MATTER_Copyright-Info"><span class="No-Ligatures">Th</span>is 2021 edition of <span class="Italic">Man and Woman in Christ</span> is available in hardcover on <a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">Amazon</a> and at discounted bulk rates directly from <a href="https://warhornmedia.com/contact-us/">Warhorn Media</a>.</p>
+</div>
