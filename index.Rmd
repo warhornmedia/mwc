@@ -27,10 +27,13 @@ site: bookdown::bookdown_site
 
 <div id="pub-page-ad">
 <img src="cover.jpg" id="pub-page-cover" alt="Man-and-Woman-in-Christ-cover"></img>
-<div class="Buy-Buttons">
-<p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">Buy on Amazon</a></p>
-<p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">Contact WARHORN Sales</a></p>
-</div>
+<p>Download</p>
+<p class="Download-Button"><a>PDF</a></p>
+<p class="Download-Button"><a>EPUB</a></p>
+<p class="Download-Button"><a>Mobi</a></p>
+<p>Buy</p>
+<p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">On Amazon</a></p>
+<p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">From WARHORN</a></p>
 </div>
 <p id="_idParaDest-124" class="F-B-MATTER_Copyright-Info-1st"><a id="_idTextAnchor2011"></a><span class="ALL-CAPS">Warhorn Media</span></p>
 <p class="F-B-MATTER_Copyright-Info">2401 S Endwright Rd.</p>
