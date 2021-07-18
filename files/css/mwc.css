@@ -165,8 +165,8 @@ section#section-.normal {
     float: right;
     width: 200px;
     position: relative;
-    top: -75px;
-    margin: 5px 5px 20px !important;
+/*    top: -75px;*/
+    margin: -70px 5px 20px !important;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -187,8 +187,8 @@ section#section-.normal {
         margin: auto;
     }
     #Copyright-Info {
-        position: relative;
-        top: -75px;
+/*        position: relative;*/
+/*        top: -75px;*/
     }
 }
 
@@ -242,8 +242,6 @@ section#section-.normal {
     top: 0;
     left: 0;
     text-align: center;
-}
-
 }
 
 /* --- */
