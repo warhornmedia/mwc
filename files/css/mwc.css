@@ -400,7 +400,7 @@ li.divider + li.chapter a:before {
     border-top-color: rgb(100, 100, 100);
 }
 
-.color-theme-1 .book-summary ul.summary li.chapter ul li > a:hover, .color-theme-1 .book-summary ul.summary li.chapter ul li > a:active {
+.color-theme-1 .book-summary ul.summary li.chapter ul li > a:hover, .color-theme-1 .book-summary ul.summary li.chapter ul li.active > a {
     color: #f3eacb;
 }
 
