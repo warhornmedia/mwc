@@ -7,7 +7,7 @@ description: "This empty book is a template for starting new Warhorn Classics bo
 params:
   build: "0"
 cover-image: "cover.jpg"
-url: "https://warhornmedia.github.io/mwc/"
+url: "https://mwc.warhornmedia.com/"
 output: 
   bookdown::gitbook:
     config:
@@ -28,9 +28,9 @@ site: bookdown::bookdown_site
 <div id="pub-page-ad">
 <img src="cover.jpg" id="pub-page-cover" alt="Man-and-Woman-in-Christ-cover"></img>
 <p>Download</p>
-<p class="Download-Button"><a>PDF</a></p>
-<p class="Download-Button"><a>EPUB</a></p>
-<p class="Download-Button"><a>Mobi</a></p>
+<p class="Download-Button"><a href="Man-and-Woman-in-Christ.pdf">PDF</a></p>
+<p class="Download-Button"><a href="Man-and-Woman-in-Christ.epub">EPUB</a></p>
+<p class="Download-Button"><a href="Man-and-Woman-in-Christ.mobi">Mobi</a></p>
 <p>Buy</p>
 <p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN">Amazon</a></p>
 <p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/">WARHORN</a></p>
