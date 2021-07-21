@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: garamond-premier-pro-caption, serif;
+	font-family: garamond-premier-pro-caption, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
     letter-spacing: 0;
 }
 
@@ -40,11 +40,11 @@ NIGHT THEME
 /*--- BODY FONTS ---*/
 
 .book.font-family-0 {
-	font-family: garamond-premier-pro-caption, serif;
+	font-family: garamond-premier-pro-caption, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
 }
 
 .book.font-family-1 {
-	font-family: garamond-premier-pro-caption, sans-serif;
+	font-family: garamond-premier-pro-caption, Helvetica, sans-serif;
 }
 
 .book.font-family-0, .book.font-family-1 {
@@ -95,7 +95,7 @@ section#section-.normal {
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
-    font-family: garamond-premier-pro, serif;
+    font-family: garamond-premier-pro, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
     font-style: normal !important;
     color: #fff;
     margin: auto auto auto 5%;
@@ -124,7 +124,7 @@ section#section-.normal {
 }
 
 #header h2.subtitle {
-    font-family: garamond-premier-pro-caption;
+    font-family: garamond-premier-pro-caption, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
     font-size: 2rem;
     line-height:1.5;
     font-weight: normal;
@@ -313,7 +313,7 @@ h1.hasAnchor a.anchor-section {
 
 /* HEADER & TOC */
 .book .book-header h1 {
-	font-family: garamond-premier-pro-caption, serif;
+	font-family: garamond-premier-pro-caption, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
 	font-style: normal;
 	border: none;
 	padding-bottom: 0;
@@ -856,7 +856,7 @@ h1 .header-section-number:before {
 }
 
 #section > h1, #section-1 > h1, #section-2 > h1, #section-3 > h1 {
-    font-family: garamond-premier-pro, serif;
+    font-family: garamond-premier-pro, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
     letter-spacing: 0 !important;
     text-transform: none !important;
     font-variant-numeric: lining-nums tabular-nums !important;
@@ -1411,7 +1411,7 @@ p.F-B-MATTER_Copyright-Info-SA, p.F-B-MATTER_Copyright-Info-Indented-SA {
 }
 .Drop-Cap, ._idGenDropcap-1 { 
 	font-style:normal;
-    font-family: garamond-premier-pro;
+    font-family: garamond-premier-pro, 'Hoefler Text', 'Adobe Garamond Pro', Garamond, 'Times New Roman', Times, serif;
 	font-weight:bold;
 	font-size:5.5em;
 	line-height:1.1;
