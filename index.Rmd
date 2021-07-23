@@ -31,6 +31,7 @@ site: bookdown::bookdown_site
 <p class="Download-Button"><a href="Man-and-Woman-in-Christ.pdf" target="_blank">PDF</a></p>
 <p class="Download-Button"><a href="Man-and-Woman-in-Christ.epub" target="_blank">EPUB</a></p>
 <p class="Download-Button"><a href="Man-and-Woman-in-Christ.mobi" target="_blank">Mobi</a></p>
+<p class="Download-Button"><a href="Man-and-Woman-in-Christ.azw3" target="_blank">AZW3</a></p>
 <p>Buy</p>
 <p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN" target="_blank">Amazon</a></p>
 <p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/" target="_blank">WARHORN</a></p>
