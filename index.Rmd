@@ -34,7 +34,7 @@ site: bookdown::bookdown_site
 <p class="Download-Button"><a href="Man-and-Woman-in-Christ.azw3" target="_blank">AZW3</a></p>
 <p>Buy</p>
 <p class="Buy-Button"><a href="https://www.amazon.com/dp/B098XQQDFW/ref=cm_sw_em_r_mt_dp_BJCQ6KWEN68XFJ7FAYJN" target="_blank">Amazon</a></p>
-<p class="Buy-Button"><a href="https://warhornmedia.com/contact-us/" target="_blank">WARHORN</a></p>
+<p class="Buy-Button"><a href="https://warhornmedia.com/product/man-and-woman-in-christ/" target="_blank">WARHORN</a></p>
 </div>
 <div id="Copyright-Info">
 <p id="_idParaDest-124" class="F-B-MATTER_Copyright-Info-1st"><a id="_idTextAnchor2011"></a><span class="ALL-CAPS">Warhorn Media</span></p>
