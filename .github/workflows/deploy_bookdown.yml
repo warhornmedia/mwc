@@ -28,7 +28,9 @@ jobs:
         run: |
           Rscript -e 'install.packages(c("remotes"))'
           Rscript -e 'install.packages(c("rmarkdown"))'
-          Rscript -e 'remotes::install_github("rstudio/bookdown")'
+          Rscript -e 'install.packages(c("bookdown"))'
+
+#          Rscript -e 'remotes::install_github("rstudio/bookdown")'
 
 #      - name: Query dependencies
 #        run: |
