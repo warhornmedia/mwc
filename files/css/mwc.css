@@ -12,6 +12,14 @@ body {
 	max-width: 700px;
 }
 
+/* Fix header overlap on mobile */
+
+@media screen and (max-width: 600px) {
+    .book .book-body.fixed {
+        top: 50px;
+    }
+}
+
 /*--- COLOR PALETTE ---
 GLOBAL
 #1aa9ab - Warhorn Turquoise
