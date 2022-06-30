@@ -914,29 +914,29 @@ h1 .HEADS---SUBHEADS_Part-Number {
     content: ' – ';
 }
 
-.book .book-summary ul.summary li a[href="04-Part-1-The-Scriptural-Teaching.html#section"], .book .book-summary ul.summary li a[href="15-Part-2-Assessing-the-Scriptural-Teaching.html#section-1"], .book .book-summary ul.summary li a[href="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html#section-2"], .book .book-summary ul.summary li a[href="29-Part-4-A-Christian-Approach-for-Today.html#section-3"] {
+.book .book-summary ul.summary li:nth-child(9) a, .book .book-summary ul.summary li:nth-child(20) a, .book .book-summary ul.summary li:nth-child(27) a, .book .book-summary ul.summary li:nth-child(34) a {
     font-weight: bold !important;
     text-indent: 0px;
     padding-left: 15px;
 }
 
-.book .book-summary ul.summary > li a[href="04-Part-1-The-Scriptural-Teaching.html#section"]:before, .book .book-summary ul.summary > li a[href="15-Part-2-Assessing-the-Scriptural-Teaching.html#section-1"]:before, .book .book-summary ul.summary > li a[href="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html#section-2"]:before, .book .book-summary ul.summary > li a[href="29-Part-4-A-Christian-Approach-for-Today.html#section-3"]:before {
+.book .book-summary ul.summary > li:nth-child(9) a:before, .book .book-summary ul.summary > li:nth-child(20) a:before, .book .book-summary ul.summary > li:nth-child(27) a:before, .book .book-summary ul.summary > li:nth-child(34) a:before {
     content: 'Part ';
 }
 
-.book .book-summary ul.summary > li a[href="04-Part-1-The-Scriptural-Teaching.html#section"]:after {
+.book .book-summary ul.summary > li:nth-child(9) a:after {
     content: ' – The Scriptural Teaching';
 }
 
-.book .book-summary ul.summary > li a[href="15-Part-2-Assessing-the-Scriptural-Teaching.html#section-1"]:after {
+.book .book-summary ul.summary > li:nth-child(20) a:after {
     content: ' – Assessing the Scriptural Teaching';
 }
 
-.book .book-summary ul.summary > li a[href="22-Part-3-The-Scriptural-Teaching-in-Contemporary-Society.html#section-2"]:after {
+.book .book-summary ul.summary > li:nth-child(27) a:after {
     content: ' – The Scriptural Teaching in Contemporary Society';
 }
 
-.book .book-summary ul.summary > li a[href="29-Part-4-A-Christian-Approach-for-Today.html#section-3"]:after {
+.book .book-summary ul.summary > li:nth-child(34) a:after {
     content: ' – A Christian Approach for Today';
 }
 
