@@ -8,6 +8,7 @@ params:
   build: "0"
 cover-image: "cover.jpg"
 url: "https://mwc.warhornmedia.com/"
+apple-touch-icon: "files/images/mwc-apple-touch-icon.png"
 output: 
   bookdown::gitbook:
     config:
